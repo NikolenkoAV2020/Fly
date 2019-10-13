@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="FlyHtmlWriterSource">
+      <UniqueIdentifier>{9997a462-c313-4eeb-a77a-861852a47601}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FlyHtmlWriterSource\ZCHtmlBuilder.h">
+      <Filter>FlyHtmlWriterSource</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyHtmlWriterSource\ZSHtmlAtribute.h">
+      <Filter>FlyHtmlWriterSource</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyHtmlWriterSource\ZСHtmlCssStyles.h">
+      <Filter>FlyHtmlWriterSource</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyHtmlWriterSource\ZСHtmlItem.h">
+      <Filter>FlyHtmlWriterSource</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyHtmlWriterSource\ZСHtmlTeg.h">
+      <Filter>FlyHtmlWriterSource</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyHtmlWriter.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FlyHtmlWriterSource\ZCHtmlBuilder.cpp">
+      <Filter>FlyHtmlWriterSource</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyHtmlWriterSource\ZСHtmlCssStyles.cpp">
+      <Filter>FlyHtmlWriterSource</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyHtmlWriterSource\ZСHtmlItem.cpp">
+      <Filter>FlyHtmlWriterSource</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyHtmlWriterSource\ZСHtmlTeg.cpp">
+      <Filter>FlyHtmlWriterSource</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyHtmlWriter.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+</Project>

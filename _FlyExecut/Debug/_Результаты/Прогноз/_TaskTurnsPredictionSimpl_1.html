@@ -1,0 +1,700 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang = "ru" xml:lang = "ru" xmlns="http://www.w3.org/1999/xhtml">
+<head>	<title>_TaskTurnsPredictionSimpl_1</title>
+	<meta name = "author"      Content = "Вальтер Артёменко">
+	<meta name = "copyright"   Content = ""ИC-35"">
+	<meta name = "Generator"	Content = "Fly project">
+	<meta name = "description" Content = "Решение прикладных задач динамики полёта КА">
+	<meta name = "keywords"    Content = "ДЗЗ ГИС КА орбита "прогноз движения КА"">
+	<meta name = "Publisher-Email"  Content = "mail@сервер.домен">
+	<meta name = "Publisher-URL"    Content = "http://www.Ваш_сайт">
+	<meta http-equiv = "expires"    Content = "0">
+	<meta http-equiv = "Page-Enter" Content = "RevealTrans(Duration = 1.0, Transition = 19)">
+	<meta http-equiv = "Page-Exit"  Content = "RevealTrans(Duration = 1.0, Transition = 18)">
+	<link rel="stylesheet" href="_TaskTurnsPredictionSimpl_1.css" type="text/css">
+</head>
+<body>
+	<div class="epistyle" title="Вместо эпиграфа.">
+		Don't repeat himself neve...
+	</div>
+	<h3>
+		Прогноз движения КА
+	</h3>
+	<hr>
+	<p>
+		Прогноз параметров движения КА на заданные витки
+	</p>
+	<table class="NU">
+		<tr>
+			<th colspan ="5">
+				НУ КА-1
+			</th>
+		</tr>
+					<td colspan ="5" style ="text-align : left">
+				Номер-15 Тип-8 Мод-0 БЦ-1  Номер ЛШС-1<br>Дата  10.12.2011   Время  12:15:54.5432   Виток 101   
+			</td>
+		<tr>
+			<th colspan ="2">
+				Масса, кг
+			</th>
+			<th>
+				S<sub>бал</sub>, кг*м2
+			</th>
+			<th>
+				<font face="symbol">K</font>
+			</th>
+			<th>
+			</th>
+		</tr>
+		<tr>
+			<td colspan ="2">
+				1700.0000
+			</td>
+			<td>
+			</td>
+			<td>
+			</td>
+			<td>
+			</td>
+		</tr>
+		<tr>
+			<td colspan ="2">
+			</td>
+			<th>
+				АСК-2000
+			</th>
+			<th>
+				ГСК    
+			</th>
+			<th>
+				АСК-ИстЭ
+			</th>
+		</tr>
+		<tr>
+			<th>
+				X,<br>Y,<br>Z,<br>V<sub>x</sub>,<br>V<sub>y</sub>,<br>V<sub>z</sub>,
+			</th>
+			<th>
+				км<br>км<br>км<br>м/сек<br>м/сек<br>м/сек
+			</th>
+			<td>
+				    -3579.540763<br>  -14116.920150<br>    3617.127245<br>    2118.713337<br>     660.510148<br>    4650.420046
+			</td>
+			<td>
+				       11449.755599<br>       9001.822337<br>       3613.093888<br>      -1421.133282<br>        -69.660256<br>       4652.928984
+			</td>
+			<td>
+				       -3545.139385<br>     -14126.630717<br>       3613.093888<br>       2111.355305<br>        666.376105<br>       4652.928984
+			</td>
+		</tr>
+		<tr>
+			<td colspan ="2">
+			</td>
+			<th>
+				ОСК-2000
+			</th>
+			<th>
+				ОСК-ИстЭ
+			</th>
+			<th>
+			</th>
+		</tr>
+		<tr>
+			<th>
+				a,<br>e<br>i,<br><font face="symbol">W</font>,<br><font face="symbol">w</font>, <br>u,
+			</th>
+			<th>
+				км<br> <br>град<br>град<br>град<br>град
+			</th>
+			<td>
+				    15000.000000<br>       0.001200000<br>      69.130945<br>     250.338359<br>     124.949440<br>      14.949440
+			</td>
+			<td>
+				    15000.000000<br>       0.001200000<br>      69.195516<br>     250.503800<br>     124.925829<br>      14.925829
+			</td>
+		</tr>
+	</table>
+	<br>
+	<table class="NU">
+		<tr>
+			<th>
+				ЛШС - 1
+			</th>
+		</tr>
+		<tr>
+			<td ="" style ="text-align : left">
+				Мод ГПЗ- 2 (04x04)<br>Мод Атм- 0 Мод СвД- 0 Учт  ДУ- 0<br>Учт СОЛ- 1 Учт ЛУН- 1 Учт ПРЛ- 0
+			</td>
+		</tr>
+	</table>
+	<br>
+	<br>
+	<table class="predByVit">
+		<tr>
+			<th colspan ="2">
+				Виток<br>Дата<br>Время<br>
+			</th>
+			<th>
+				               105<br>        11.12.2011<br>     08:21:54,0499
+			</th>
+			<th>
+				               106<br>        11.12.2011<br>     13:26:33,6675
+			</th>
+			<th>
+				               107<br>        11.12.2011<br>     18:31:13,2222
+			</th>
+			<th>
+				               109<br>        12.12.2011<br>     04:40:32,3940
+			</th>
+		</tr>
+		<tr>
+			<th>
+				Масса КА,
+			</th>
+			<th>
+				кг
+			</th>
+			<td>
+				          1700.000
+			</td>
+			<td>
+				          1700.000
+			</td>
+			<td>
+				          1700.000
+			</td>
+			<td>
+				          1700.000
+			</td>
+		</tr>
+		<tr>
+			<td colspan ="2">
+			</td>
+			<th colspan ="4" style ="text-align: center">
+				Параметры витка
+			</th>
+		</tr>
+		<tr>
+			<th>
+				T<sub>др</sub><br>T<sub>оск</sub><br>МССВ<br>H<sub>ср</sub><br>H<sub>ву</sub><br>L<sub>ву</sub><br>L<sub>ну</sub><br>L<sub>мв</sub><br>L<sub>сут</sub><br>Витков/сут
+			</th>
+			<th>
+				сек<br>сек<br> <br>км<br>км<br>град<br>град<br>град<br>град<br> <br>
+			</th>
+			<td>
+				        18279.6176<br>        18283.9314<br>     11:23:04,3666<br>       8629.549286<br>       8632.029471<br>         90.292986<br>        232.132178<br>        -76.411148<br>        -22.055739<br>                 5
+			</td>
+			<td>
+				        18279.5547<br>        18284.0216<br>     11:22:05,3087<br>       8629.523561<br>       8631.995332<br>         13.881838<br>        155.721449<br>        -76.410625<br>        -22.053124<br>                 5
+			</td>
+			<td>
+				        18279.6271<br>        18283.9745<br>     11:21:06,3135<br>       8629.521484<br>       8632.010268<br>        297.471213<br>         79.310469<br>        -76.411216<br>        -22.056081<br>                 5
+			</td>
+			<td>
+				        18279.5927<br>        18284.0480<br>     11:19:08,2374<br>       8629.494918<br>       8632.009056<br>        144.649347<br>        286.488856<br>        -76.410992<br>        -22.054961<br>                 5
+			</td>
+		</tr>
+		<tr>
+			<td colspan ="2">
+			</td>
+			<th colspan ="4" style ="text-align: center">
+				H<sub>мин</sub>
+			</th>
+		</tr>
+		<tr>
+			<th>
+				Время<br>u(т.е.)<br>H<br>B<br>L
+			</th>
+			<th>
+				<br>град<br>км<br>град<br>град
+			</th>
+			<td>
+				10:39:33,9526<br>        162.851496<br>       8606.967555<br>         16.042470<br>        229.508943
+			</td>
+			<td>
+				15:44:12,8230<br>        162.837628<br>       8606.934852<br>         16.055369<br>        153.095747
+			</td>
+			<td>
+				20:48:52,5979<br>        162.841457<br>       8606.957269<br>         16.051746<br>         76.685297
+			</td>
+			<td>
+				06:58:10,5957<br>        162.818730<br>       8606.941647<br>         16.072830<br>        283.859527
+			</td>
+		</tr>
+		<tr>
+			<td colspan ="2">
+			</td>
+			<th colspan ="4" style ="text-align: center">
+				H<sub>макс</sub>
+			</th>
+		</tr>
+		<tr>
+			<th>
+				Время<br>u(т.е.)<br>H<br>B<br>L
+			</th>
+			<th>
+				<br>град<br>км<br>град<br>град
+			</th>
+			<td>
+				12:21:41,7872<br>        283.519130<br>       8653.148435<br>        -65.410017<br>        334.236662
+			</td>
+			<td>
+				17:26:22,6904<br>        283.545737<br>       8653.133440<br>        -65.395893<br>        257.874357
+			</td>
+			<td>
+				22:31:01,6830<br>        283.533532<br>       8653.176576<br>        -65.401869<br>        181.440363
+			</td>
+			<td>
+				08:40:20,8019<br>        283.533138<br>       8653.177518<br>        -65.401382<br>         28.616949
+			</td>
+		</tr>
+		<tr>
+			<td colspan ="2">
+			</td>
+			<th colspan ="4" style ="text-align: center">
+				R<sub>мин</sub>
+			</th>
+		</tr>
+		<tr>
+			<th>
+				Время<br>u(т.е.)<br>R<br>B<br>L
+			</th>
+			<th>
+				<br>град<br>км<br>град<br>град
+			</th>
+			<td>
+				10:08:28,3531<br>        126.026163<br>      14979.894081<br>         49.193249<br>        217.525836
+			</td>
+			<td>
+				15:13:05,7525<br>        125.983051<br>      14979.852547<br>         49.229373<br>        141.088226
+			</td>
+			<td>
+				20:17:47,3182<br>        126.022411<br>      14979.881579<br>         49.196113<br>         64.701095
+			</td>
+			<td>
+				06:27:03,9390<br>        125.972387<br>      14979.854261<br>         49.237776<br>        271.847727
+			</td>
+		</tr>
+		<tr>
+			<td colspan ="2">
+			</td>
+			<th colspan ="4" style ="text-align: center">
+				R<sub>макс</sub>
+			</th>
+		</tr>
+		<tr>
+			<th>
+				Время<br>u(т.е.)<br>R<br>B<br>L
+			</th>
+			<th>
+				<br>град<br>км<br>град<br>град
+			</th>
+			<td>
+				12:47:14,2185<br>        313.628784<br>      15015.938660<br>        -42.660865<br>          3.302883
+			</td>
+			<td>
+				17:51:57,9364<br>        313.710676<br>      15015.936588<br>        -42.589018<br>        286.928210
+			</td>
+			<td>
+				22:56:34,0228<br>        313.641242<br>      15015.971344<br>        -42.649695<br>        210.485984
+			</td>
+			<td>
+				09:05:51,2519<br>        313.603737<br>      15015.969068<br>        -42.682258<br>         57.646995
+			</td>
+		</tr>
+		<tr>
+			<td colspan ="2">
+			</td>
+			<th colspan ="4" style ="text-align: center">
+				АСК 1975
+			</th>
+		</tr>
+		<tr>
+			<th>
+				X<br>Y<br>Z<br>V<sub>x</sub><br>V<sub>y</sub><br>V<sub>z</sub><br>a<br>e<br>i<br><font face="symbol">W</font><br><font face="symbol">w</font><br>u
+			</th>
+			<th>
+				км<br>км<br>км<br>м/сек<br>м/сек<br>м/сек<br>км<br><br>град<br>град<br>град<br>град
+			</th>
+			<td>
+				      -5164.053844<br>     -14093.873896<br>         18.275036<br>       1737.132270<br>       -625.203285<br>       4809.339623<br>    15000.49994496<br>       0.001124030<br>         68.999519<br>        249.850178<br>        125.104436<br>          0.074721
+			</td>
+			<td>
+				      -5173.277387<br>     -14090.454516<br>         18.308923<br>       1736.755899<br>       -626.337537<br>       4809.349614<br>    15000.54928555<br>       0.001121569<br>         68.999245<br>        249.812579<br>        124.845891<br>          0.074860
+			</td>
+			<td>
+				      -5182.451535<br>     -14087.098730<br>         18.342686<br>       1736.369099<br>       -627.469592<br>       4809.331484<br>    15000.52356114<br>       0.001122279<br>         68.998959<br>        249.775241<br>        124.989400<br>          0.074998
+			</td>
+			<td>
+				      -5200.870067<br>     -14080.307745<br>         18.410635<br>       1735.610492<br>       -629.734773<br>       4809.317093<br>    15000.56376259<br>       0.001121511<br>         68.998302<br>        249.700208<br>        124.845225<br>          0.075277
+			</td>
+		</tr>
+		<tr>
+			<td colspan ="2">
+			</td>
+			<th colspan ="4" style ="text-align: center">
+				АСК 2000
+			</th>
+		</tr>
+		<tr>
+			<th>
+				X<br>Y<br>Z<br>V<sub>x</sub><br>V<sub>y</sub><br>V<sub>z</sub><br>i<br><font face="symbol">W</font><br><font face="symbol">w</font><br>u
+			</th>
+			<th>
+				км<br>км<br>км<br>м/сек<br>м/сек<br>м/сек<br>град<br>град<br>град<br>град
+			</th>
+			<td>
+				      -5085.215602<br>     -14122.521582<br>          5.824719<br>       1728.910780<br>       -615.515366<br>       4813.550002<br>         69.130340<br>        250.188668<br>        125.053510<br>          0.023795
+			</td>
+			<td>
+				      -5094.458171<br>     -14119.153816<br>          5.836174<br>       1728.540733<br>       -616.651704<br>       4813.559088<br>         69.130035<br>        250.151102<br>        124.794872<br>          0.023842
+			</td>
+			<td>
+				      -5103.650990<br>     -14115.849368<br>          5.847627<br>       1728.160313<br>       -617.785903<br>       4813.540025<br>         69.129718<br>        250.113797<br>        124.938291<br>          0.023889
+			</td>
+			<td>
+				      -5122.107307<br>     -14109.161452<br>          5.870781<br>       1727.414416<br>       -620.055290<br>       4813.523806<br>         69.128998<br>        250.038830<br>        124.793931<br>          0.023983
+			</td>
+		</tr>
+		<tr>
+			<td colspan ="2">
+			</td>
+			<th colspan ="4" style ="text-align: center">
+				АСК ТЭ
+			</th>
+		</tr>
+		<tr>
+			<th>
+				X<br>Y<br>Z<br>V<sub>x</sub><br>V<sub>y</sub><br>V<sub>z</sub><br>i<br><font face="symbol">W</font><br><font face="symbol">w</font><br>u
+			</th>
+			<th>
+				км<br>км<br>км<br>м/сек<br>м/сек<br>м/сек<br>град<br>град<br>град<br>град
+			</th>
+			<td>
+				      -5046.477617<br>     -14136.411537<br>          0.000000<br>       1724.856225<br>       -610.708796<br>       4815.616372<br>         69.194878<br>        250.354231<br>        125.029715<br>          0.000000
+			</td>
+			<td>
+				      -5055.725847<br>     -14133.070394<br>          0.000000<br>       1724.488913<br>       -611.845657<br>       4815.625230<br>         69.194564<br>        250.316696<br>        124.771030<br>          0.000000
+			</td>
+			<td>
+				      -5064.924155<br>     -14129.792437<br>          0.000000<br>       1724.111257<br>       -612.980427<br>       4815.605925<br>         69.194239<br>        250.279422<br>        124.914402<br>          0.000000
+			</td>
+			<td>
+				      -5083.391716<br>     -14123.157695<br>          0.000000<br>       1723.370872<br>       -615.250975<br>       4815.589231<br>         69.193502<br>        250.204518<br>        124.769948<br>          0.000000
+			</td>
+		</tr>
+		<tr>
+			<td colspan ="2">
+			</td>
+			<th colspan ="4" style ="text-align: center">
+				АСК ТЭС
+			</th>
+		</tr>
+		<tr>
+			<th>
+				X<br>Y<br>Z<br>V<sub>x</sub><br>V<sub>y</sub><br>V<sub>z</sub><br>i<br><font face="symbol">W</font><br><font face="symbol">w</font><br>u
+			</th>
+			<th>
+				км<br>км<br>км<br>м/сек<br>м/сек<br>м/сек<br>град<br>град<br>град<br>град
+			</th>
+			<td>
+				      -5047.486981<br>     -14136.051169<br>         -0.054133<br>       1724.961672<br>       -610.903618<br>       4815.553891<br>         69.192921<br>        250.350218<br>        125.029494<br>        359.999779
+			</td>
+			<td>
+				      -5056.736687<br>     -14132.708752<br>         -0.053693<br>       1724.594459<br>       -612.040717<br>       4815.562645<br>         69.192604<br>        250.312676<br>        124.770811<br>        359.999781
+			</td>
+			<td>
+				      -5065.936475<br>     -14129.429522<br>         -0.053198<br>       1724.216900<br>       -613.175705<br>       4815.543240<br>         69.192276<br>        250.275395<br>        124.914185<br>        359.999783
+			</td>
+			<td>
+				      -5084.406944<br>     -14122.792239<br>         -0.052044<br>       1723.476704<br>       -615.446629<br>       4815.526353<br>         69.191533<br>        250.200475<br>        124.769736<br>        359.999787
+			</td>
+		</tr>
+		<tr>
+			<td colspan ="2">
+			</td>
+			<th colspan ="4" style ="text-align: center">
+				ГСК
+			</th>
+		</tr>
+		<tr>
+			<th>
+				X<br>Y<br>Z<br>V<sub>x</sub><br>V<sub>y</sub><br>V<sub>z</sub>
+			</th>
+			<th>
+				км<br>км<br>км<br>м/сек<br>м/сек<br>м/сек
+			</th>
+			<td>
+				        -76.755220<br>      15009.969224<br>          0.000000<br>       -735.181149<br>         -8.504111<br>       4815.616372<br>
+			</td>
+			<td>
+				      14571.724138<br>       3601.235655<br>          0.000000<br>       -181.012125<br>        712.636877<br>       4815.625230<br>
+			</td>
+			<td>
+				       6924.224042<br>     -13317.642900<br>          0.000000<br>        650.178054<br>        343.392979<br>       4815.605925<br>
+			</td>
+			<td>
+				     -12242.670789<br>       8684.553331<br>          0.000000<br>       -421.577999<br>       -602.509204<br>       4815.589231<br>
+			</td>
+		</tr>
+		<tr>
+			<th colspan ="2">
+				Виток<br>Дата<br>Время<br>
+			</th>
+			<th>
+				               110<br>        12.12.2011<br>     09:45:11,9867
+			</th>
+			<th>
+				               112<br>        12.12.2011<br>     19:54:31,1196
+			</th>
+		</tr>
+		<tr>
+			<th>
+				Масса КА,
+			</th>
+			<th>
+				кг
+			</th>
+			<td>
+				          1700.000
+			</td>
+			<td>
+				          1700.000
+			</td>
+		</tr>
+		<tr>
+			<td colspan ="2">
+			</td>
+			<th colspan ="2" style ="text-align: center">
+				Параметры витка
+			</th>
+		</tr>
+		<tr>
+			<th>
+				T<sub>др</sub><br>T<sub>оск</sub><br>МССВ<br>H<sub>ср</sub><br>H<sub>ву</sub><br>L<sub>ву</sub><br>L<sub>ну</sub><br>L<sub>мв</sub><br>L<sub>сут</sub><br>Витков/сут
+			</th>
+			<th>
+				сек<br>сек<br> <br>км<br>км<br>град<br>град<br>град<br>град<br> <br>
+			</th>
+			<td>
+				        18279.5768<br>        18283.9222<br>     11:18:09,1919<br>       8629.541600<br>       8632.011336<br>         68.238355<br>        210.077712<br>        -76.410867<br>        -22.054335<br>                 5
+			</td>
+			<td>
+				        18279.5960<br>        18283.9755<br>     11:16:11,1459<br>       8629.526644<br>       8632.023634<br>        275.416776<br>         57.255992<br>        -76.411112<br>        -22.055558<br>                 5
+			</td>
+		</tr>
+		<tr>
+			<td colspan ="2">
+			</td>
+			<th colspan ="2" style ="text-align: center">
+				H<sub>мин</sub>
+			</th>
+		</tr>
+		<tr>
+			<th>
+				Время<br>u(т.е.)<br>H<br>B<br>L
+			</th>
+			<th>
+				<br>град<br>км<br>град<br>град
+			</th>
+			<td>
+				12:02:51,3694<br>        162.841741<br>       8606.960448<br>         16.051358<br>        207.452272
+			</td>
+			<td>
+				22:12:11,0734<br>        162.852939<br>       8606.958713<br>         16.040815<br>         54.632195
+			</td>
+		</tr>
+		<tr>
+			<td colspan ="2">
+			</td>
+			<th colspan ="2" style ="text-align: center">
+				H<sub>макс</sub>
+			</th>
+		</tr>
+		<tr>
+			<th>
+				Время<br>u(т.е.)<br>H<br>B<br>L
+			</th>
+			<th>
+				<br>град<br>км<br>град<br>град
+			</th>
+			<td>
+				13:44:59,4383<br>        283.514161<br>       8653.130687<br>        -65.411120<br>        312.170937
+			</td>
+			<td>
+				23:54:19,3573<br>        283.529463<br>       8653.147414<br>        -65.402299<br>        159.376022
+			</td>
+		</tr>
+		<tr>
+			<td colspan ="2">
+			</td>
+			<th colspan ="2" style ="text-align: center">
+				R<sub>мин</sub>
+			</th>
+		</tr>
+		<tr>
+			<th>
+				Время<br>u(т.е.)<br>R<br>B<br>L
+			</th>
+			<th>
+				<br>град<br>км<br>град<br>град
+			</th>
+			<td>
+				11:31:42,8409<br>        125.958527<br>      14979.877014<br>         49.249216<br>        195.427643
+			</td>
+			<td>
+				21:41:04,0594<br>        125.999643<br>      14979.883418<br>         49.214263<br>         42.630307
+			</td>
+		</tr>
+		<tr>
+			<td colspan ="2">
+			</td>
+			<th colspan ="2" style ="text-align: center">
+				R<sub>макс</sub>
+			</th>
+		</tr>
+		<tr>
+			<th>
+				Время<br>u(т.е.)<br>R<br>B<br>L
+			</th>
+			<th>
+				<br>град<br>км<br>град<br>град
+			</th>
+			<td>
+				14:10:30,8776<br>        313.604369<br>      15015.918345<br>        -42.681618<br>        341.236109
+			</td>
+			<td>
+				00:19:51,8035<br>        313.639375<br>      15015.941890<br>        -42.650613<br>        188.429021
+			</td>
+		</tr>
+		<tr>
+			<td colspan ="2">
+			</td>
+			<th colspan ="2" style ="text-align: center">
+				АСК 1975
+			</th>
+		</tr>
+		<tr>
+			<th>
+				X<br>Y<br>Z<br>V<sub>x</sub><br>V<sub>y</sub><br>V<sub>z</sub><br>a<br>e<br>i<br><font face="symbol">W</font><br><font face="symbol">w</font><br>u
+			</th>
+			<th>
+				км<br>км<br>км<br>м/сек<br>м/сек<br>м/сек<br>км<br><br>град<br>град<br>град<br>град
+			</th>
+			<td>
+				      -5210.084574<br>     -14076.903125<br>         18.444705<br>       1735.239155<br>       -630.866022<br>       4809.289311<br>    15000.49491804<br>       0.001125433<br>         68.997807<br>        249.662660<br>        125.001072<br>          0.075416
+			</td>
+			<td>
+				      -5228.463865<br>     -14070.100040<br>         18.512800<br>       1734.486979<br>       -633.140358<br>       4809.262613<br>    15000.52407299<br>       0.001123988<br>         68.996957<br>        249.587751<br>        124.982747<br>          0.075695
+			</td>
+		</tr>
+		<tr>
+			<td colspan ="2">
+			</td>
+			<th colspan ="2" style ="text-align: center">
+				АСК 2000
+			</th>
+		</tr>
+		<tr>
+			<th>
+				X<br>Y<br>Z<br>V<sub>x</sub><br>V<sub>y</sub><br>V<sub>z</sub><br>i<br><font face="symbol">W</font><br><font face="symbol">w</font><br>u
+			</th>
+			<th>
+				км<br>км<br>км<br>м/сек<br>м/сек<br>м/сек<br>град<br>град<br>град<br>град
+			</th>
+			<td>
+				      -5131.340758<br>     -14105.808395<br>          5.882442<br>       1727.049478<br>       -621.188597<br>       4813.495130<br>         69.128472<br>        250.001315<br>        124.949687<br>          0.024031
+			</td>
+			<td>
+				      -5149.757903<br>     -14099.108160<br>          5.905838<br>       1726.310095<br>       -623.467101<br>       4813.466620<br>         69.127559<br>        249.926473<br>        124.931179<br>          0.024127
+			</td>
+		</tr>
+		<tr>
+			<td colspan ="2">
+			</td>
+			<th colspan ="2" style ="text-align: center">
+				АСК ТЭ
+			</th>
+		</tr>
+		<tr>
+			<th>
+				X<br>Y<br>Z<br>V<sub>x</sub><br>V<sub>y</sub><br>V<sub>z</sub><br>i<br><font face="symbol">W</font><br><font face="symbol">w</font><br>u
+			</th>
+			<th>
+				км<br>км<br>км<br>м/сек<br>м/сек<br>м/сек<br>град<br>град<br>град<br>град
+			</th>
+			<td>
+				      -5092.630861<br>     -14119.831230<br>          0.000000<br>       1723.008715<br>       -616.384875<br>       4815.560320<br>         69.192966<br>        250.167035<br>        124.925656<br>          0.000000
+			</td>
+			<td>
+				      -5111.059525<br>     -14113.184006<br>          0.000000<br>       1722.274910<br>       -618.664659<br>       4815.531315<br>         69.192035<br>        250.092254<br>        124.907053<br>          0.000000
+			</td>
+		</tr>
+		<tr>
+			<td colspan ="2">
+			</td>
+			<th colspan ="2" style ="text-align: center">
+				АСК ТЭС
+			</th>
+		</tr>
+		<tr>
+			<th>
+				X<br>Y<br>Z<br>V<sub>x</sub><br>V<sub>y</sub><br>V<sub>z</sub><br>i<br><font face="symbol">W</font><br><font face="symbol">w</font><br>u
+			</th>
+			<th>
+				км<br>км<br>км<br>м/сек<br>м/сек<br>м/сек<br>град<br>град<br>град<br>град
+			</th>
+			<td>
+				      -5093.647496<br>     -14119.464517<br>         -0.051392<br>       1723.114637<br>       -616.580684<br>       4815.497352<br>         69.190994<br>        250.162984<br>        124.925446<br>        359.999790
+			</td>
+			<td>
+				      -5112.078831<br>     -14112.814824<br>         -0.049957<br>       1722.380994<br>       -618.860709<br>       4815.468181<br>         69.190058<br>        250.088188<br>        124.906849<br>        359.999796
+			</td>
+		</tr>
+		<tr>
+			<td colspan ="2">
+			</td>
+			<th colspan ="2" style ="text-align: center">
+				ГСК
+			</th>
+		</tr>
+		<tr>
+			<th>
+				X<br>Y<br>Z<br>V<sub>x</sub><br>V<sub>y</sub><br>V<sub>z</sub>
+			</th>
+			<th>
+				км<br>км<br>км<br>м/сек<br>м/сек<br>м/сек
+			</th>
+			<td>
+				       5564.955102<br>      13940.437503<br>          0.000000<br>       -684.735060<br>        268.221346<br>       4815.560320<br>
+			</td>
+			<td>
+				       1416.956228<br>     -14943.129769<br>          0.000000<br>        731.723768<br>         74.157286<br>       4815.531315<br>
+			</td>
+		</tr>
+	</table>
+	<br>
+	<br>
+	<table class="simple">
+		<tr>
+			<td>
+				Начало решения:
+			</td>
+			<td>
+				14:05:40 07:05:2019
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Время:
+			</td>
+			<td>
+				0.922 сек.
+			</td>
+		</tr>
+	</table>
+	<div class="poststyle">
+		Fly project document
+	</div>
+</body>
+</html>

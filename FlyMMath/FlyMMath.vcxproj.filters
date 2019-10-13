@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="SourceFlyMMath">
+      <UniqueIdentifier>{10b5cac9-3bcf-441d-9503-7e80a7cb0464}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FlyMMathSource\Arc.h">
+      <Filter>SourceFlyMMath</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyMMathSource\CalcFurie.h">
+      <Filter>SourceFlyMMath</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyMMathSource\MBuildSPO.h">
+      <Filter>SourceFlyMMath</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyMMathSource\MMath.h">
+      <Filter>SourceFlyMMath</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyMMathSource\MMathDef.h">
+      <Filter>SourceFlyMMath</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyMMathSource\MQuaternion.h">
+      <Filter>SourceFlyMMath</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyMMath.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="FlyMMathSource\TSelfRemovPointer.h">
+      <Filter>SourceFlyMMath</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FlyMMathSource\Arc.cpp">
+      <Filter>SourceFlyMMath</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyMMathSource\CalcFurie.cpp">
+      <Filter>SourceFlyMMath</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyMMathSource\MBuildSPO.cpp">
+      <Filter>SourceFlyMMath</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyMMathSource\MMath.cpp">
+      <Filter>SourceFlyMMath</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyMMathSource\MQuaternion.cpp">
+      <Filter>SourceFlyMMath</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyMMathSource\MSimplex.cpp">
+      <Filter>SourceFlyMMath</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyMMathSource\USV.CPP">
+      <Filter>SourceFlyMMath</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="FlyMMath.cpp" />
+  </ItemGroup>
+</Project>

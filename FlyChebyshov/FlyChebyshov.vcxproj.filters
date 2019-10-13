@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="SourceChebyshov">
+      <UniqueIdentifier>{7265ab33-6b1a-431b-8932-a478cc871fe9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FlyChebyshovSource\ZCAproxMod.h">
+      <Filter>SourceChebyshov</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyChebyshovSource\ZCAproxModManager.h">
+      <Filter>SourceChebyshov</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyChebyshovSource\ZFChebyshov.h">
+      <Filter>SourceChebyshov</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyChebyshov.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FlyChebyshovSource\ZCAproxMod.cpp">
+      <Filter>SourceChebyshov</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyChebyshovSource\ZCAproxModManager.cpp">
+      <Filter>SourceChebyshov</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyChebyshovSource\ZFChebyshov.cpp">
+      <Filter>SourceChebyshov</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyChebyshov.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+</Project>

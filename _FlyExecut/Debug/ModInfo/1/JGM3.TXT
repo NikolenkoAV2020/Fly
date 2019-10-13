@@ -1,0 +1,31 @@
+IGeS Files Repository - JGM-3 
+ 
+
+Size: 64 Kbytes Status: PUBLIC 
+
+ 
+
+Description: 
+
+This model has been developed as a joint solution
+ between the University of Texas at Austin and NASA/GSFC.
+ It describes the gravity field up to degree and order 70.
+
+ 
+
+
+--------------------------------------------------------------------------------
+
+Reference: 
+B.D. Tapley, M.M. Watkins, J.C. Ries, G. W. Davis,
+ R.J.Eanes, S. R.  Poole, H.J. Rim,   B.E. Schutz,
+ C.K. Shum, R.S.Nerem, F.J. Lerch, J.A. Marshall,
+ S.M. Klosko,   N.K. Pavlis,
+  "The JGM-3 gravity model".
+
+ 
+
+Retrieve file: JGM-3.Z Send email: ries@csr.utexas.edu 
+
+ 
+ 

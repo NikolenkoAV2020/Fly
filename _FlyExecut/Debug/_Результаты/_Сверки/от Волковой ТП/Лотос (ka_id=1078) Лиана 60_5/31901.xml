@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfClassForKAParamsDataGrid xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ClassForKAParamsDataGrid>
+    <NKA>2</NKA>
+    <NVit>3084</NVit>
+    <Tn>41766.757865497682</Tn>
+    <Tk>41798.7578654977</Tk>
+    <x>-2863602.4000000004</x>
+    <y>6699277.78</y>
+    <z>0</z>
+    <Vx>-2151.96306</Vx>
+    <Vy>-919.834831</Vy>
+    <Vz>6818.6335</Vz>
+    <Sb>0.017</Sb>
+  </ClassForKAParamsDataGrid>
+</ArrayOfClassForKAParamsDataGrid>

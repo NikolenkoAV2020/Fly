@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="SourceMagicLNS">
+      <UniqueIdentifier>{250e9c1f-5bde-421a-9a67-ac8a2c2bf626}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FlyMagicLNS.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="FlyMagicLNSSource\MagicLNS.h">
+      <Filter>SourceMagicLNS</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyMagicLNSSource\MagicSolution.h">
+      <Filter>SourceMagicLNS</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FlyMagicLNS.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="FlyMagicLNSSource\BMagicCalcU2.cpp">
+      <Filter>SourceMagicLNS</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyMagicLNSSource\ControlImplementation.cpp">
+      <Filter>SourceMagicLNS</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyMagicLNSSource\DemandIncrement.cpp">
+      <Filter>SourceMagicLNS</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyMagicLNSSource\DemandInit.cpp">
+      <Filter>SourceMagicLNS</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyMagicLNSSource\MagicBuildSPO.cpp">
+      <Filter>SourceMagicLNS</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyMagicLNSSource\MagicCalcDif.cpp">
+      <Filter>SourceMagicLNS</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyMagicLNSSource\MagicCalcMishit.cpp">
+      <Filter>SourceMagicLNS</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyMagicLNSSource\MagicCalcR.cpp">
+      <Filter>SourceMagicLNS</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyMagicLNSSource\MagicCalcU1.cpp">
+      <Filter>SourceMagicLNS</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyMagicLNSSource\MagicCalcU2.cpp">
+      <Filter>SourceMagicLNS</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyMagicLNSSource\MagicCalcU3.cpp">
+      <Filter>SourceMagicLNS</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyMagicLNSSource\MagicIZM.cpp">
+      <Filter>SourceMagicLNS</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyMagicLNSSource\MagicLNS.cpp">
+      <Filter>SourceMagicLNS</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyMagicLNSSource\MagicLNSBreak.cpp">
+      <Filter>SourceMagicLNS</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyMagicLNSSource\MagicMakePU.cpp">
+      <Filter>SourceMagicLNS</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyMagicLNSSource\MagicPrint.cpp">
+      <Filter>SourceMagicLNS</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyMagicLNSSource\MagicSolutionPrint.cpp">
+      <Filter>SourceMagicLNS</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyMagicLNSSource\MagicUT.cpp">
+      <Filter>SourceMagicLNS</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyMagicLNSSource\ModelForcingGivenTurn.cpp">
+      <Filter>SourceMagicLNS</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyMagicLNSSource\MagicSolution.cpp">
+      <Filter>SourceMagicLNS</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

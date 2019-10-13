@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Fly.cpp" />
+    <ClCompile Include="StdAfx.cpp" />
+    <ClCompile Include="Task\RunUpSys\RunUpSysBuild.cpp">
+      <Filter>Source Примеры прикладных программ, использующих модель движения\Разбег</Filter>
+    </ClCompile>
+    <ClCompile Include="Task\RunUpSys\RunUpSysEstimateNU.cpp">
+      <Filter>Source Примеры прикладных программ, использующих модель движения\Разбег</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyRinexReader\NRContent.cpp" />
+    <ClCompile Include="FlyRinexReader\NRR.cpp" />
+    <ClCompile Include="Task\Kanopus\FlightCalcHightContour.cpp">
+      <Filter>Source Примеры прикладных программ, использующих модель движения\Канопус</Filter>
+    </ClCompile>
+    <ClCompile Include="Task\Kanopus\FlightCalcHightSimplified.cpp">
+      <Filter>Source Примеры прикладных программ, использующих модель движения\Канопус</Filter>
+    </ClCompile>
+    <ClCompile Include="Task\Kanopus\FlightCalcPrediction.cpp">
+      <Filter>Source Примеры прикладных программ, использующих модель движения\Канопус</Filter>
+    </ClCompile>
+    <ClCompile Include="Task\Kanopus\TaskFlifhtKanopus.cpp">
+      <Filter>Source Примеры прикладных программ, использующих модель движения\Канопус</Filter>
+    </ClCompile>
+    <ClCompile Include="Task\Kanopus\TaskKanopusSysStateEvaluation.cpp">
+      <Filter>Source Примеры прикладных программ, использующих модель движения\Канопус</Filter>
+    </ClCompile>
+    <ClCompile Include="Task\Maneuvers\TaskMagicFly11.cpp">
+      <Filter>Source Примеры прикладных программ, использующих модель движения\Манёвры</Filter>
+    </ClCompile>
+    <ClCompile Include="Task\Maneuvers\TaskMagicFly21.cpp">
+      <Filter>Source Примеры прикладных программ, использующих модель движения\Манёвры</Filter>
+    </ClCompile>
+    <ClCompile Include="Task\Maneuvers\TaskMagicFly24.cpp">
+      <Filter>Source Примеры прикладных программ, использующих модель движения\Манёвры</Filter>
+    </ClCompile>
+    <ClCompile Include="Task\Maneuvers\TaskMagicFly31.cpp">
+      <Filter>Source Примеры прикладных программ, использующих модель движения\Манёвры</Filter>
+    </ClCompile>
+    <ClCompile Include="Task\Maneuvers\TaskMagicFly241.cpp">
+      <Filter>Source Примеры прикладных программ, использующих модель движения\Манёвры</Filter>
+    </ClCompile>
+    <ClCompile Include="Task\Maneuvers\TaskMagicFly311.cpp">
+      <Filter>Source Примеры прикладных программ, использующих модель движения\Манёвры</Filter>
+    </ClCompile>
+    <ClCompile Include="Task\Maneuvers\TaskMagicFlyBegin.cpp">
+      <Filter>Source Примеры прикладных программ, использующих модель движения\Манёвры</Filter>
+    </ClCompile>
+    <ClCompile Include="Task\Maneuvers\TaskMagicFlySys3SC.cpp">
+      <Filter>Source Примеры прикладных программ, использующих модель движения\Манёвры</Filter>
+    </ClCompile>
+    <ClCompile Include="Task\GMS_RadioVisibilityZones\TaskCalcZRV.cpp">
+      <Filter>Source Примеры прикладных программ, использующих модель движения\НИП ЗРВ</Filter>
+    </ClCompile>
+    <ClCompile Include="Task\GMS_RadioVisibilityZones\TaskCalcZRVDoc.cpp">
+      <Filter>Source Примеры прикладных программ, использующих модель движения\НИП ЗРВ</Filter>
+    </ClCompile>
+    <ClCompile Include="Task\GMS_RadioVisibilityZones\TaskCalcZRVMod.cpp">
+      <Filter>Source Примеры прикладных программ, использующих модель движения\НИП ЗРВ</Filter>
+    </ClCompile>
+    <ClCompile Include="Task\GMS_AntennaPointing\TaskCalcTargDir.cpp">
+      <Filter>Source Примеры прикладных программ, использующих модель движения\НИП ЦУ %28составная часть расчёта ЗРВ%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Task\Predictions\TaskTurnsPredictionSys2.cpp">
+      <Filter>Source Примеры прикладных программ, использующих модель движения\Прогноз 8 КА в 2-х плоскостях</Filter>
+    </ClCompile>
+    <ClCompile Include="Task\Predictions\TaskTurnsPredictionSys.cpp">
+      <Filter>Source Примеры прикладных программ, использующих модель движения\Прогноз 8 КА в 8-и плоскостях</Filter>
+    </ClCompile>
+    <ClCompile Include="Task\Predictions\TaskTurnsPredictionSimpl.cpp">
+      <Filter>Source Примеры прикладных программ, использующих модель движения\Прогноз по виткам</Filter>
+    </ClCompile>
+    <ClCompile Include="Task\Predictions\TaskTurnsPrediction.cpp">
+      <Filter>Source Примеры прикладных программ, использующих модель движения\Прогноз по виткам группы КА</Filter>
+    </ClCompile>
+    <ClCompile Include="Task\Predictions\TaskTurnsPredictionHAvr.cpp">
+      <Filter>Source Примеры прикладных программ, использующих модель движения\Прогноз по виткам с осреднением высоты</Filter>
+    </ClCompile>
+    <ClCompile Include="Task\Predictions\TaskTimePrediction.cpp">
+      <Filter>Source Примеры прикладных программ, использующих модель движения\Прогноз по времени</Filter>
+    </ClCompile>
+    <ClCompile Include="Task\Reconciliation\MatchingPrediction.cpp">
+      <Filter>Source Примеры прикладных программ, использующих модель движения\Сверка</Filter>
+    </ClCompile>
+    <ClCompile Include="Task\DataTest\TestAgeValidation.cpp">
+      <Filter>Source Примеры прикладных программ, использующих модель движения\Тесты данных</Filter>
+    </ClCompile>
+    <ClCompile Include="Task\FlightTrack\TaskFlightTrack.cpp">
+      <Filter>Source Примеры прикладных программ, использующих модель движения\Трасса полёта</Filter>
+    </ClCompile>
+    <ClCompile Include="Task\Utils\BuildEOPStorage.cpp">
+      <Filter>Source Примеры прикладных программ, использующих модель движения\Утилиты</Filter>
+    </ClCompile>
+    <ClCompile Include="Task\Utils\LoadIersEopFile.cpp">
+      <Filter>Source Примеры прикладных программ, использующих модель движения\Утилиты</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="Task\RunUpSys\RunUpSysBuild.h">
+      <Filter>Source Примеры прикладных программ, использующих модель движения\Разбег</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyRinexReader\NRContent.h" />
+    <ClInclude Include="FlyRinexReader\NRHeader.h" />
+    <ClInclude Include="FlyRinexReader\NRR.h" />
+    <ClInclude Include="Task\Kanopus\FlightThisAndThat.h">
+      <Filter>Source Примеры прикладных программ, использующих модель движения\Канопус</Filter>
+    </ClInclude>
+    <ClInclude Include="Task\GMS_RadioVisibilityZones\TaskCalcZRVDoc.h">
+      <Filter>Source Примеры прикладных программ, использующих модель движения\НИП ЗРВ</Filter>
+    </ClInclude>
+    <ClInclude Include="Task\GMS_RadioVisibilityZones\TaskCalcZRVMod.h">
+      <Filter>Source Примеры прикладных программ, использующих модель движения\НИП ЗРВ</Filter>
+    </ClInclude>
+    <ClInclude Include="Task\GMS_AntennaPointing\TaskCalcTargDir.h">
+      <Filter>Source Примеры прикладных программ, использующих модель движения\НИП ЦУ %28составная часть расчёта ЗРВ%29</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Примеры прикладных программ, использующих модель движения">
+      <UniqueIdentifier>{6a37c7ba-1d63-4ee9-ae36-1b65e6a692af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Примеры прикладных программ, использующих модель движения\Канопус">
+      <UniqueIdentifier>{774999ba-c6c9-4613-b3e7-df79c903fd9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Примеры прикладных программ, использующих модель движения\Трасса полёта">
+      <UniqueIdentifier>{de3ac745-2482-441f-8769-7589ec5bf80a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Примеры прикладных программ, использующих модель движения\Разбег">
+      <UniqueIdentifier>{2f4b30ca-12fe-42fd-96c2-dcd381d9c806}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Примеры прикладных программ, использующих модель движения\Прогноз по времени">
+      <UniqueIdentifier>{a47c554a-3645-422c-aef1-84ceb52edd9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Примеры прикладных программ, использующих модель движения\Прогноз по виткам группы КА">
+      <UniqueIdentifier>{e911c07a-110a-4a58-a931-0f50ebf7c97c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Примеры прикладных программ, использующих модель движения\Прогноз по виткам с осреднением высоты">
+      <UniqueIdentifier>{749b104f-b590-4e01-a28a-cdf0fbf37d0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Примеры прикладных программ, использующих модель движения\Прогноз по виткам">
+      <UniqueIdentifier>{46c8f9ec-9cef-4fe6-8aec-eee70b81a3c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Примеры прикладных программ, использующих модель движения\Прогноз 8 КА в 2-х плоскостях">
+      <UniqueIdentifier>{5161b51f-3312-4866-b576-f95abb471ae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Примеры прикладных программ, использующих модель движения\Прогноз 8 КА в 8-и плоскостях">
+      <UniqueIdentifier>{7e611b90-2b48-4d32-9bdc-c97bcbc588bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Примеры прикладных программ, использующих модель движения\Манёвры">
+      <UniqueIdentifier>{7824f52d-0a94-435c-8a4f-8324e7944ffd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Примеры прикладных программ, использующих модель движения\НИП ЗРВ">
+      <UniqueIdentifier>{2e3d4e23-2a1b-4f9c-b76f-3ebd0e64382e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Примеры прикладных программ, использующих модель движения\НИП ЦУ %28составная часть расчёта ЗРВ%29">
+      <UniqueIdentifier>{a4323ce0-4d68-4c49-a31f-ed4f3125ee3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Примеры прикладных программ, использующих модель движения\Утилиты">
+      <UniqueIdentifier>{c434ddf6-ee09-4ac2-add1-f2f646636d3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Примеры прикладных программ, использующих модель движения\Тесты данных">
+      <UniqueIdentifier>{38acd3b1-e232-4099-9334-9c06873fac19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Примеры прикладных программ, использующих модель движения\Сверка">
+      <UniqueIdentifier>{7d51f499-b19c-4f13-9a22-d803d3101e03}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

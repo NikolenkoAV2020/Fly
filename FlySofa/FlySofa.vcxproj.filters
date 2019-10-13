@@ -1,0 +1,751 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Sofa">
+      <UniqueIdentifier>{5e76e846-7747-4694-9bb2-1b3383dfc8d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29">
+      <UniqueIdentifier>{46075ff4-df89-42b5-9ede-94207fd67067}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FlySofa.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="FlySofaSource\sofa.h">
+      <Filter>Header Sofa</Filter>
+    </ClInclude>
+    <ClInclude Include="FlySofaSource\sofam.h">
+      <Filter>Header Sofa</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FlySofa.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="FlySofaSource\a2af.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\a2tf.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\ab.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\ae2hd.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\af2a.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\anp.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\anpm.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\apcg.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\apcg13.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\apci.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\apci13.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\apco.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\apco13.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\apcs.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\apcs13.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\aper.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\aper13.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\apio.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\apio13.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\atci13.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\atciq.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\atciqn.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\atciqz.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\atco13.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\atic13.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\aticq.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\aticqn.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\atio13.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\atioq.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\atoc13.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\atoi13.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\atoiq.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\bi00.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\bp00.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\bp06.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\bpn2xy.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\c2i00a.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\c2i00b.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\c2i06a.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\c2ibpn.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\c2ixy.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\c2ixys.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\c2s.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\c2t00a.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\c2t00b.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\c2t06a.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\c2tcio.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\c2teqx.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\c2tpe.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\c2txy.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\cal2jd.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\cp.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\cpv.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\cr.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\d2dtf.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\d2tf.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\dat.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\dtdb.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\dtf2d.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\eceq06.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\ecm06.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\ee00.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\ee00a.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\ee00b.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\ee06a.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\eect00.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\eform.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\eo06a.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\eors.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\epb.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\epb2jd.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\epj.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\epj2jd.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\epv00.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\eqec06.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\eqeq94.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\era00.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\fad03.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\fae03.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\faf03.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\faju03.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\fal03.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\falp03.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\fama03.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\fame03.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\fane03.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\faom03.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\fapa03.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\fasa03.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\faur03.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\fave03.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\fk5hip.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\fk5hz.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\fk52h.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\fw2m.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\fw2xy.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\g2icrs.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\gc2gd.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\gc2gde.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\gd2gc.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\gd2gce.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\gmst00.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\gmst06.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\gmst82.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\gst00a.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\gst00b.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\gst06.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\gst06a.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\gst94.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\h2fk5.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\hd2ae.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\hd2pa.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\hfk5z.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\icrs2g.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\ir.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\jd2cal.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\jdcalf.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\ld.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\ldn.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\ldsun.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\lteceq.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\ltecm.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\lteqec.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\ltp.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\ltpb.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\ltpecl.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\ltpequ.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\num00a.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\num00b.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\num06a.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\numat.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\nut00a.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\nut00b.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\nut06a.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\nut80.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\nutm80.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\obl06.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\obl80.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\p2pv.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\p2s.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\p06e.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\pap.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\pas.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\pb06.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\pdp.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\pfw06.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\plan94.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\pm.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\pmat00.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\pmat06.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\pmat76.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\pmp.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\pmpx.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\pmsafe.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\pn.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\pn00.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\pn00a.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\pn00b.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\pn06.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\pn06a.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\pnm00a.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\pnm00b.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\pnm06a.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\pnm80.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\pom00.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\ppp.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\ppsp.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\pr00.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\prec76.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\pv2p.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\pv2s.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\pvdpv.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\pvm.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\pvmpv.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\pvppv.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\pvstar.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\pvtob.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\pvu.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\pvup.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\pvxpv.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\pxp.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\refco.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\rm2v.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\rv2m.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\rx.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\rxp.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\rxpv.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\rxr.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\ry.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\rz.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\s00.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\s00a.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\s00b.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\s2c.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\s2p.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\s2pv.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\s2xpv.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\s06.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\s06a.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\sepp.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\seps.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\sp00.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\starpm.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\starpv.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\sxp.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\sxpv.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\t_sofa_c.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\taitt.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\taiut1.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\taiutc.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\tcbtdb.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\tcgtt.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\tdbtcb.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\tdbtt.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\tf2a.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\tf2d.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\tpors.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\tporv.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\tpsts.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\tpstv.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\tpxes.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\tpxev.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\tr.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\trxp.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\trxpv.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\tttai.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\tttcg.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\tttdb.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\ttut1.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\ut1tai.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\ut1tt.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\ut1utc.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\utctai.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\utcut1.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\xy06.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\xys00a.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\xys00b.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\xys06a.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\zp.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\zpv.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySofaSource\zr.c">
+      <Filter>Source Sofa %28 International Astronomical Union%27s Standards Of Fundamental Astronomy%29</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

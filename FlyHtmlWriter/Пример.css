@@ -1,0 +1,208 @@
+	html {
+		font-size : 125%;
+	}
+	body {
+		font-size : 1em;
+		color : #ff8c40;
+		background : #000000;
+	}
+	h1, h2, h3, h4, h5, h6 {
+		font-family : 'Times New Roman', Times, serf;
+		font-weight : bold;
+		text-indent : 36pt;
+		text-align  : left;
+		text-shadow : 0 0 3px #FFF, 0 0 6px #FFF, 0 0 10px #FFF, 0 0 14px #49ff18, 0 0 20px #49FF18, 0 0 28px #49FF18, 0 0 35px #49FF18, 0 0 45px #49ff18, -1px -5px 7px rgba(28, 31, 170, 0.39);
+		color       : #aa4900;
+	}
+	h1 {
+		font-size : 2.5em;
+	}
+	h2 {
+		font-size : 2.1em;
+	}
+	h3 {
+		font-size : 1.7em;
+	}
+	h4 {
+		font-size : 1.3em;
+	}
+	h5 {
+		font-size : 1.1em;
+	}
+	h6 {
+		font-size : 1.0em;
+	}
+	p, div {
+		text-indent : 36pt;
+		text-align  : justify;
+		line-height : 100%;
+	}
+	p {
+		font-family : Verdana, Arial, Helvetica, sans-serf;
+		font-size   : 1.0em;
+	}
+	p.rose {
+		color : #ff00ff;
+		font  : 150% Arial;
+	}
+	div {
+		font-family : 'Courier New';
+		font-size   : 150%;
+	}
+	div.epistyle {
+		color  : #fff ;
+		text-title  : "Вместо эпиграфа.";
+		text-indent : 0pt;
+		text-align  : right;
+		font-family : 'Times New Roman';
+		font-size   : 90%;
+	}
+	div.poststyle {
+		color  : #fff ;
+		text-indent : 0pt;
+		text-align  : right;
+		font-family : 'Times New Roman';
+		font-size   : 90%;
+	}
+	div.poststyle {
+		color  : #fff ;
+		text-indent : 0pt;
+		text-align  : right;
+		font-family : 'Times New Roman';
+		font-size   : 60%;
+	}
+	div.predVitLeftCol {
+		color  : #fff ;
+		text-indent : 0pt;
+		text-align  : left;
+		font-family : 'Times New Roman';
+		font-size   : 100%;
+	}
+	div.predVitHider {
+		color  : #fff ;
+		text-indent : 0pt;
+		text-align  : right;
+		font-family : 'Times New Roman';
+		font-size   : 100%;
+	}
+	div.predSubHeader {
+		color  : #fff ;
+		text-indent : 0pt;
+		text-align  : center;
+		font-family : 'Times New Roman';
+		font-size   : 100%;
+	}
+	a {
+		color : #35940f;
+		font-size : 80%;
+		text-shadow : #ffffff 1px 1px 8px;
+	}
+	a:hover {
+		color : #2cf704;
+		font-weight : 400;
+		font-size : 100%;
+	}
+	a:active {
+		color : #e6ef09;
+		font-weight : 700;
+		font-size : 100%;
+		text-shadow : #001ed0 -2px -2px 8px;
+	}
+	a:visited {
+		color : #c7c6c6;
+		text-shadow : #ffffff 1px 1px 11px;
+	}
+	table {
+		margin-left : 36pt;
+		overflow : visible;
+		white-space : nowrap;
+	}
+	table.predByVit {
+		border : 4px solid #555555;
+		color : #000000;
+		background : #ffc096;
+		text-align : right;
+		line-height : 125%;
+	}
+	table.predByVit th {
+		background : #38cf42;
+		text-align : left;
+		padding : 3pt 15pt 3pt 15pt;
+	}
+	table.predByVit tr th ~th {
+		text-align : right;
+	}
+	table.predByVit td {
+		padding : 3pt 15pt 3pt 15pt;
+	}
+	table.predByVit sub {
+		vertical-align : -30%;
+		font-size : 90%;
+		line-height : 50%;
+	}
+	table.predByVit sup {
+		vertical-align : +30%;
+		font-size : 90%;
+		line-height : 50%;
+	}
+	table.NU {
+		color : #000000;
+		background : #ffc096;
+		text-align : right;
+		line-height : 125%;
+		border : 1px solid #555555;
+		border-radius : 17px;
+		-webkit-box-shadow : 16px 7px 19px -2px rgba(235, 248, 255, 0.89);
+		box-shadow : 16px 7px 19px -2px rgba(235, 248, 255, 0.89);
+	}
+	table.NU th {
+		background : #38cf42;
+		text-align : left;
+		padding : 3pt 15pt 3pt 15pt;
+	}
+	table.NU tr th ~th {
+		text-align : right;
+	}
+	table.NU td {
+		padding : 3pt 15pt 3pt 15pt;
+		font-weight : 800;
+		font-family : "Courier New", Courier, monospace;
+	}
+	table.NU sub {
+		vertical-align : -30%;
+		font-size : 90%;
+		line-height : 50%;
+	}
+	table.NU sup {
+		vertical-align : +30%;
+		font-size : 90%;
+		line-height : 50%;
+	}
+	table.FlyID {
+		font-family : 'Times New Roman';
+		text-align : right;
+		line-height : 125%;
+		border : 1px solid #555555;
+		border-radius : 17px;
+		-webkit-box-shadow : 16px 7px 19px -2px rgba(235, 248, 255, 0.89);
+		box-shadow : 16px 7px 19px -2px rgba(235, 248, 255, 0.89);
+	}
+	table.FlyID th {
+		text-align : left;
+		padding : 3pt 15pt 3pt 15pt;
+	}
+	table.FlyID td {
+		text-align : right;
+		font-weight : 600;
+		padding : 3pt 15pt 3pt 15pt;
+	}
+	table.FlyID sub {
+		vertical-align : -30%;
+		font-size : 90%;
+		line-height : 50%;
+	}
+	table.FlyID sup {
+		vertical-align : +30%;
+		font-size : 90%;
+		line-height : 50%;
+	}

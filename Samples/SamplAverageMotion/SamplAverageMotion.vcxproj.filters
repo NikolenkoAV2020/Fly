@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="SamplAverageMotion.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="..\RunUpSys\RunUpSysEstimateNU.cpp">
+      <Filter>Для генерации НУ</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Для генерации НУ">
+      <UniqueIdentifier>{03cd7c4f-6366-4978-b0d1-0cfa0e1f1e37}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

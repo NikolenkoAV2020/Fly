@@ -1,0 +1,524 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source FlyCore">
+      <UniqueIdentifier>{0ff695fb-f139-4295-8c0c-390253ab1317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source FlyCore\Астрономия">
+      <UniqueIdentifier>{df9703c5-6786-42cf-96eb-5feeefbba518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source FlyCore\Модели возмущений">
+      <UniqueIdentifier>{b1a43980-9f0f-4d92-a4bd-c1beb56aae31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source FlyCore\Системы координат">
+      <UniqueIdentifier>{a8408c0d-6a87-42ce-bf9f-4c75f37b39db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source FlyCore\Модель движения">
+      <UniqueIdentifier>{f3d656ac-076a-4089-bbdc-b39024ac345a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source FlyCore\Модель движения\Программа управления дв. ЦМ">
+      <UniqueIdentifier>{7c990761-faa6-4f5d-9ad3-09692bab2f46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source FlyCore\Документирование прогноза">
+      <UniqueIdentifier>{6388fefe-a955-4f3c-9edc-0fa0b9c0c4fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source FlyCore\Интегратор">
+      <UniqueIdentifier>{b7174d97-013e-4967-953d-dc44bd8bc3ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source FlyCore\Документирование данных">
+      <UniqueIdentifier>{7a1f8703-ae2d-4c10-89a9-68ea834e5dce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source FlyCore\Структуры данных">
+      <UniqueIdentifier>{ec406756-3ed0-431f-8b82-7700f99bdb33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source FlyCore\Ошибки и сообщения">
+      <UniqueIdentifier>{3b7258c3-b73a-459d-922e-799509307793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source FlyCore\Вычисления">
+      <UniqueIdentifier>{ce22f9b2-254d-4d55-b173-f48b1ddc8d05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source FlyCore\Модели возмущений\Океанические приливы">
+      <UniqueIdentifier>{6a376fe4-2e95-4e53-9484-b76d78a10dcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source FlyCore\Модели возмущений\Гравитационное поле Земли">
+      <UniqueIdentifier>{e7399352-4c90-48b9-b29d-dc543adfb005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source FlyCore\Модели возмущений\Световое давление">
+      <UniqueIdentifier>{f9f5ac6f-ffc1-4e48-a7b6-01df375c087d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source FlyCore\Модели возмущений\Гравитационные возмущения планет">
+      <UniqueIdentifier>{1bc51728-ba4f-453e-8034-a8d6d73cc381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source FlyCore\Модели возмущений\Атмосфера">
+      <UniqueIdentifier>{5d421ef4-9841-449d-9f3d-ea8c549e3350}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source FlyCore\Модели возмущений\Атмосфера\MSIS Naval Research Laboratory 1990, 2000 гг">
+      <UniqueIdentifier>{ddd88383-7632-4366-a57f-06f974262857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source FlyCore\Модели возмущений\Атмосфера\ДМА ГОСТ 1990, 2001, 2004 гг">
+      <UniqueIdentifier>{56860156-08d3-45e0-ad89-1c57beda2d17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source FlyCore\Модели возмущений\Атмосфера\СМА ГОСТ">
+      <UniqueIdentifier>{3f55aa9f-a544-463b-b392-0662bb32f553}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FlyCoreSource\ZSun.h">
+      <Filter>Source FlyCore\Астрономия</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZSiderealTime.h">
+      <Filter>Source FlyCore\Астрономия</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZPR.h">
+      <Filter>Source FlyCore\Астрономия</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZNUT.h">
+      <Filter>Source FlyCore\Астрономия</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZMoon.h">
+      <Filter>Source FlyCore\Астрономия</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZAvrE0.h">
+      <Filter>Source FlyCore\Астрономия</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZERP.H">
+      <Filter>Source FlyCore\Астрономия</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZFarg.h">
+      <Filter>Source FlyCore\Астрономия</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZEOPManager.h">
+      <Filter>Source FlyCore\Астрономия</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ModAstro.h">
+      <Filter>Source FlyCore\Астрономия</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ModSK.h">
+      <Filter>Source FlyCore\Системы координат</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZSK.h">
+      <Filter>Source FlyCore\Системы координат</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZSKNU.h">
+      <Filter>Source FlyCore\Системы координат</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZHBL.h">
+      <Filter>Source FlyCore\Системы координат</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ModPU.h">
+      <Filter>Source FlyCore\Модель движения\Программа управления дв. ЦМ</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ModPUItem.h">
+      <Filter>Source FlyCore\Модель движения\Программа управления дв. ЦМ</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ModPUManager.h">
+      <Filter>Source FlyCore\Модель движения\Программа управления дв. ЦМ</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ModPUSwitchOn.h">
+      <Filter>Source FlyCore\Модель движения\Программа управления дв. ЦМ</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ModGlobal.h">
+      <Filter>Source FlyCore\Модель движения</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ModType.h">
+      <Filter>Source FlyCore\Модель движения</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZNIP.H">
+      <Filter>Source FlyCore\Структуры данных</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZMessageManager.h">
+      <Filter>Source FlyCore\Ошибки и сообщения</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZIndex.h">
+      <Filter>Source FlyCore\Структуры данных</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZSmartPtr.h">
+      <Filter>Source FlyCore\Структуры данных</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZCalc.h">
+      <Filter>Source FlyCore\Вычисления</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\Z.h">
+      <Filter>Source FlyCore\Астрономия</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZCExternalEquations.h">
+      <Filter>Source FlyCore\Интегратор</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZCIntegrator.h">
+      <Filter>Source FlyCore\Интегратор</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZCMemoryKeeper.h">
+      <Filter>Source FlyCore\Интегратор</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZMSpaceCraft.h">
+      <Filter>Source FlyCore\Модель движения</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZFUS.h">
+      <Filter>Source FlyCore\Астрономия</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZMForceAtmSMA.h">
+      <Filter>Source FlyCore\Модели возмущений\Атмосфера\СМА ГОСТ</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZMForceAtmSMA62.h">
+      <Filter>Source FlyCore\Модели возмущений\Атмосфера\СМА ГОСТ</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZMForceAtmSMA81.h">
+      <Filter>Source FlyCore\Модели возмущений\Атмосфера\СМА ГОСТ</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZMForceAtmSMAGost440181.h">
+      <Filter>Source FlyCore\Модели возмущений\Атмосфера\СМА ГОСТ</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZMForceAtmDMA1990_Gost25645115.h">
+      <Filter>Source FlyCore\Модели возмущений\Атмосфера\ДМА ГОСТ 1990, 2001, 2004 гг</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZMForceAtmDMA1990_Gost25645115Data.h">
+      <Filter>Source FlyCore\Модели возмущений\Атмосфера\ДМА ГОСТ 1990, 2001, 2004 гг</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZMForceAtmDMA2001_Gost25645000.h">
+      <Filter>Source FlyCore\Модели возмущений\Атмосфера\ДМА ГОСТ 1990, 2001, 2004 гг</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZMForceAtmDMA2001_Gost25645000Data.h">
+      <Filter>Source FlyCore\Модели возмущений\Атмосфера\ДМА ГОСТ 1990, 2001, 2004 гг</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZMForceAtmDMA2004_Gost25645166.h">
+      <Filter>Source FlyCore\Модели возмущений\Атмосфера\ДМА ГОСТ 1990, 2001, 2004 гг</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZMForceAtmDMA2004_Gost25645166Data.h">
+      <Filter>Source FlyCore\Модели возмущений\Атмосфера\ДМА ГОСТ 1990, 2001, 2004 гг</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZMForceAtmDMAGost.h">
+      <Filter>Source FlyCore\Модели возмущений\Атмосфера\ДМА ГОСТ 1990, 2001, 2004 гг</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZMForceAtmDMAISA.h">
+      <Filter>Source FlyCore\Модели возмущений\Атмосфера\ДМА ГОСТ 1990, 2001, 2004 гг</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZMForceAtmMsis.h">
+      <Filter>Source FlyCore\Модели возмущений\Атмосфера\MSIS Naval Research Laboratory 1990, 2000 гг</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZMForceAtmMsis90Data.h">
+      <Filter>Source FlyCore\Модели возмущений\Атмосфера\MSIS Naval Research Laboratory 1990, 2000 гг</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZMForceAtmMsis2000.h">
+      <Filter>Source FlyCore\Модели возмущений\Атмосфера\MSIS Naval Research Laboratory 1990, 2000 гг</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZMForceAtmMsis2000Struct.h">
+      <Filter>Source FlyCore\Модели возмущений\Атмосфера\MSIS Naval Research Laboratory 1990, 2000 гг</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZMForceOceanTide.h">
+      <Filter>Source FlyCore\Модели возмущений\Океанические приливы</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZMForceGrav.h">
+      <Filter>Source FlyCore\Модели возмущений\Гравитационное поле Земли</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZFGPZLoad.h">
+      <Filter>Source FlyCore\Модели возмущений\Гравитационное поле Земли</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZMForceSPD.h">
+      <Filter>Source FlyCore\Модели возмущений\Световое давление</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZCISAManager.h">
+      <Filter>Source FlyCore\Модели возмущений\Атмосфера</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZMForceAtm.h">
+      <Filter>Source FlyCore\Модели возмущений\Атмосфера</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZMForcePlanet.h">
+      <Filter>Source FlyCore\Модели возмущений\Гравитационные возмущения планет</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZCDU.h">
+      <Filter>Source FlyCore\Модель движения</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZFDUCalc.h">
+      <Filter>Source FlyCore\Модель движения</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZCEventManager.h">
+      <Filter>Source FlyCore\Модель движения</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZCPrintManager.h">
+      <Filter>Source FlyCore\Документирование прогноза</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZCPrintFormat.h">
+      <Filter>Source FlyCore\Документирование прогноза</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCore.h" />
+    <ClInclude Include="FlyCoreLink.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="FlyCoreSource\ZCAlgebraicMDF.h">
+      <Filter>Source FlyCore\Астрономия</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZCAlgebraicMdfHolder.h">
+      <Filter>Source FlyCore\Астрономия</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZCMiniStackKeeper.h">
+      <Filter>Source FlyCore\Астрономия</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZFUofNU01.h">
+      <Filter>Source FlyCore\Документирование данных</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZFUofNU50.h">
+      <Filter>Source FlyCore\Документирование данных</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZCNumParser.h">
+      <Filter>Source FlyCore\Документирование данных</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZCEopManager.h">
+      <Filter>Source FlyCore\Астрономия</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZCStorageBinaryFile.h">
+      <Filter>Source FlyCore\Астрономия</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FlyCoreSource\ZSun.cpp">
+      <Filter>Source FlyCore\Астрономия</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZSiderealTime.cpp">
+      <Filter>Source FlyCore\Астрономия</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZPR.cpp">
+      <Filter>Source FlyCore\Астрономия</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZPoleXY.cpp">
+      <Filter>Source FlyCore\Астрономия</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZNUT2003.cpp">
+      <Filter>Source FlyCore\Астрономия</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZNUT.cpp">
+      <Filter>Source FlyCore\Астрономия</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZMoon.cpp">
+      <Filter>Source FlyCore\Астрономия</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZAvrE0.cpp">
+      <Filter>Source FlyCore\Астрономия</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZERP.CPP">
+      <Filter>Source FlyCore\Астрономия</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZFarg.cpp">
+      <Filter>Source FlyCore\Астрономия</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZEOPManager.cpp">
+      <Filter>Source FlyCore\Астрономия</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\Aejg.cpp">
+      <Filter>Source FlyCore\Астрономия</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\Anal_ae.cpp">
+      <Filter>Source FlyCore\Астрономия</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ModAstro.cpp">
+      <Filter>Source FlyCore\Астрономия</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\Model_pv.cpp">
+      <Filter>Source FlyCore\Астрономия</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ModSK.cpp">
+      <Filter>Source FlyCore\Системы координат</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZSK.cpp">
+      <Filter>Source FlyCore\Системы координат</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZSKNU.cpp">
+      <Filter>Source FlyCore\Системы координат</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZHBL.cpp">
+      <Filter>Source FlyCore\Системы координат</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZASCRLN.cpp">
+      <Filter>Source FlyCore\Системы координат</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ModPU.cpp">
+      <Filter>Source FlyCore\Модель движения\Программа управления дв. ЦМ</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ModPUItem.cpp">
+      <Filter>Source FlyCore\Модель движения\Программа управления дв. ЦМ</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ModPUManager.cpp">
+      <Filter>Source FlyCore\Модель движения\Программа управления дв. ЦМ</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ModPUSwitchOn.cpp">
+      <Filter>Source FlyCore\Модель движения\Программа управления дв. ЦМ</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ModGlobal.cpp">
+      <Filter>Source FlyCore\Модель движения</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZNIP.CPP">
+      <Filter>Source FlyCore\Структуры данных</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZMessageManager.cpp">
+      <Filter>Source FlyCore\Ошибки и сообщения</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZIndex.cpp">
+      <Filter>Source FlyCore\Структуры данных</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ModLoadSave.cpp">
+      <Filter>Source FlyCore\Структуры данных</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZCalc.cpp">
+      <Filter>Source FlyCore\Вычисления</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZCExternalEquations.cpp">
+      <Filter>Source FlyCore\Интегратор</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZCIntegrator.cpp">
+      <Filter>Source FlyCore\Интегратор</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZCIntegratorAdm.cpp">
+      <Filter>Source FlyCore\Интегратор</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZCIntegratorRK.cpp">
+      <Filter>Source FlyCore\Интегратор</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZCMemoryKeeper.cpp">
+      <Filter>Source FlyCore\Интегратор</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZMSpaceCraft.cpp">
+      <Filter>Source FlyCore\Модель движения</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZMSpaceCraftSPH.cpp">
+      <Filter>Source FlyCore\Модель движения</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZMSpaceCraftStep.cpp">
+      <Filter>Source FlyCore\Модель движения</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZMSpaceCraftStory.cpp">
+      <Filter>Source FlyCore\Модель движения</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZMSpaceCraftTime.cpp">
+      <Filter>Source FlyCore\Модель движения</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZMSpaceCraftVitok.cpp">
+      <Filter>Source FlyCore\Модель движения</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZFUS.cpp">
+      <Filter>Source FlyCore\Астрономия</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZMForceAtmSMA62.cpp">
+      <Filter>Source FlyCore\Модели возмущений\Атмосфера\СМА ГОСТ</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZMForceAtmSMA81.cpp">
+      <Filter>Source FlyCore\Модели возмущений\Атмосфера\СМА ГОСТ</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZMForceAtmSMAGost440181.cpp">
+      <Filter>Source FlyCore\Модели возмущений\Атмосфера\СМА ГОСТ</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZMForceAtmDMA1990_Gost25645115.cpp">
+      <Filter>Source FlyCore\Модели возмущений\Атмосфера\ДМА ГОСТ 1990, 2001, 2004 гг</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZMForceAtmDMA2001_Gost25645000.CPP">
+      <Filter>Source FlyCore\Модели возмущений\Атмосфера\ДМА ГОСТ 1990, 2001, 2004 гг</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZMForceAtmDMA2004_Gost25645166.cpp">
+      <Filter>Source FlyCore\Модели возмущений\Атмосфера\ДМА ГОСТ 1990, 2001, 2004 гг</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZMForceAtmDMAGost.cpp">
+      <Filter>Source FlyCore\Модели возмущений\Атмосфера\ДМА ГОСТ 1990, 2001, 2004 гг</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZMForceAtmMsis.cpp">
+      <Filter>Source FlyCore\Модели возмущений\Атмосфера\MSIS Naval Research Laboratory 1990, 2000 гг</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZMForceAtmMsis90.cpp">
+      <Filter>Source FlyCore\Модели возмущений\Атмосфера\MSIS Naval Research Laboratory 1990, 2000 гг</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZMForceAtmMsis2000.cpp">
+      <Filter>Source FlyCore\Модели возмущений\Атмосфера\MSIS Naval Research Laboratory 1990, 2000 гг</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZMForceAtmMsis2000Data.cpp">
+      <Filter>Source FlyCore\Модели возмущений\Атмосфера\MSIS Naval Research Laboratory 1990, 2000 гг</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZMForceOceanTide.cpp">
+      <Filter>Source FlyCore\Модели возмущений\Океанические приливы</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZMForceGrav.cpp">
+      <Filter>Source FlyCore\Модели возмущений\Гравитационное поле Земли</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZFGPZLoad.cpp">
+      <Filter>Source FlyCore\Модели возмущений\Гравитационное поле Земли</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZMForceSPD.cpp">
+      <Filter>Source FlyCore\Модели возмущений\Световое давление</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZCISAManager.cpp">
+      <Filter>Source FlyCore\Модели возмущений\Атмосфера</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZMForceAtm.cpp">
+      <Filter>Source FlyCore\Модели возмущений\Атмосфера</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZMForcePlanet.cpp">
+      <Filter>Source FlyCore\Модели возмущений\Гравитационные возмущения планет</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZCDU.cpp">
+      <Filter>Source FlyCore\Модель движения</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZFDUCalc.cpp">
+      <Filter>Source FlyCore\Модель движения</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZCEventManager.cpp">
+      <Filter>Source FlyCore\Модель движения</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZCPrintManager.cpp">
+      <Filter>Source FlyCore\Документирование прогноза</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZCPrintManagerPLHS.cpp">
+      <Filter>Source FlyCore\Документирование прогноза</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZCPrintManagerPNU.cpp">
+      <Filter>Source FlyCore\Документирование прогноза</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZCPrintManagerAflat.cpp">
+      <Filter>Source FlyCore\Документирование прогноза</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZCPrintManagerApeak.cpp">
+      <Filter>Source FlyCore\Документирование прогноза</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZCPrintFormat.cpp">
+      <Filter>Source FlyCore\Документирование прогноза</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCore.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="FlyCoreSource\ZCAlgebraicMDF.cpp">
+      <Filter>Source FlyCore\Астрономия</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZCAlgebraicMdfHolder.cpp">
+      <Filter>Source FlyCore\Астрономия</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZFUofNU01.cpp">
+      <Filter>Source FlyCore\Документирование данных</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZFUofNU50.cpp">
+      <Filter>Source FlyCore\Документирование данных</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZCNumParser.cpp">
+      <Filter>Source FlyCore\Документирование данных</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZFCheckSum.cpp">
+      <Filter>Source FlyCore\Документирование данных</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZCEopManager.cpp">
+      <Filter>Source FlyCore\Астрономия</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZCAlgebraicLocalModFactory.cpp">
+      <Filter>Source FlyCore\Астрономия</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZCStorageBinaryFile.cpp">
+      <Filter>Source FlyCore\Астрономия</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZCPrintManagerApeakText.cpp">
+      <Filter>Source FlyCore\Документирование прогноза</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZCPrintManagerApeakHtml.cpp">
+      <Filter>Source FlyCore\Документирование прогноза</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZCPrintManagerAflatText.cpp">
+      <Filter>Source FlyCore\Документирование прогноза</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZCPrintManagerAflatHtml.cpp">
+      <Filter>Source FlyCore\Документирование прогноза</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

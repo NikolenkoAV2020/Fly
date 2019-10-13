@@ -1,0 +1,811 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0051)https://www.glonass-iac.ru/GLONASS/specifyRINEX.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="robots" content="index, follow">
+<meta name="keywords" content="ГЛОНАСС, ИАЦ, Информационно-аналитический центр, GPS.">
+<meta name="description" content="Информационно-аналитический центр">
+<link href="./Уточнение координат на основе RINEX-файла_files/template_196b5afbb5828f1f4cd1b9a80c34ba5f.css" type="text/css" data-template-style="true" rel="stylesheet">
+<script async="" src="./Уточнение координат на основе RINEX-файла_files/google_analytics.js"></script><script type="text/javascript" async="" src="./Уточнение координат на основе RINEX-файла_files/ba.js"></script><script type="text/javascript" src="./Уточнение координат на основе RINEX-файла_files/template_306c1f48c27a7b956d438546eb7436df.js"></script>
+<script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "a5841e5c4ca46c6645bc92cb4512f826"]); _ba.push(["host", "www.glonass-iac.ru"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+
+
+<title>Уточнение координат на основе RINEX-файла</title>
+<link rel="shortcut icon" href="https://www.glonass-iac.ru/images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="https://www.glonass-iac.ru/images/favicon.ico" type="image/x-icon">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+<meta name="google-site-verification" content="GuK8T0wD9RYuA5NRW3VjuElA5kGek1MBT1r2aJ8Pgoc">
+<meta name="google-site-verification" content="Xujar8p9XmAlTZg0OjIA5cQ_7Ts2MdYlLFaN_2Z-Ji4">
+<meta name="yandex-verification" content="7bea41a4c4040d52">
+<meta name="yandex-verification" content="74348b4b549a16de">
+<meta name="yandex-verification" content="4d9852e081672a3a">
+<script src="./Уточнение координат на основе RINEX-файла_files/jquery-1.11.1.min.js"></script>
+<script src="./Уточнение координат на основе RINEX-файла_files/realtime.js"></script>
+<script src="./Уточнение координат на основе RINEX-файла_files/jquery-migrate-1.2.1.js"></script>
+</head>
+
+<body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','/js/google_analytics.js','ga');
+
+  ga('create', 'UA-47415098-1', 'glonass-iac.ru');
+  ga('send', 'pageview');
+
+</script>
+
+
+<div id="container0">
+  <div id="container">
+
+    <div id="header">
+	<div id="company"><a href="https://www.glonass-iac.ru/"><h1>ИНФОРМАЦИОННО-АНАЛИТИЧЕСКИЙ ЦЕНТР<br>координатно-временного и навигационного обеспечения</h1>
+			<h2>ПРИКЛАДНОЙ ПОТРЕБИТЕЛЬСКИЙ ЦЕНТР ГЛОНАСС</h2></a></div>
+
+	<div id="search">
+			</div>
+
+	<div id="langSelect">
+		<a href="https://www.glonass-iac.ru/">РУС</a>&nbsp;&nbsp;&nbsp;<a href="https://www.glonass-iac.ru/en/">ENG</a>
+	</div>
+	
+	<div id="clock"><font style="font-size: 11pt;">UTC+3: 08:39:38</font></div>
+
+	<div id="login">
+			</div>
+
+        <div id="partners">
+             <a href="http://www.roscosmos.ru/"><img src="./Уточнение координат на основе RINEX-файла_files/roscosmos_logo.png" alt="РОСКОСМОС" title="РОСКОСМОС"></a>
+             <a href="http://tsniimash.ru/"><img src="./Уточнение координат на основе RINEX-файла_files/tsniimash_logo.png" alt="ФГУП ЦНИИмаш" title="ФГУП ЦНИИмаш"></a>
+        </div>
+
+	<div id="menu">
+	
+<div class="multilevel_menu"><ul id="horizontal-multilevel-menu">
+
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/" class="root-item">Главная</a></li>
+			
+		
+	
+	
+
+	
+	
+					<li><a href="https://www.glonass-iac.ru/GLONASS/" class="root-item-selected">ГЛОНАСС</a>
+				<ul>
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/CUSGLONASS/">ЦУС ГЛОНАСС</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/GLONASS/index.php">Состав ОГ</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/GLONASS/ephemeris.php">Эфемериды</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/GLONASS/currentPosition.php">Текущее положение КА</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/GLONASS/DayMonitoringNew.php">Суточный мониторинг</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/GLONASS/rtglo.php">Мониторинг</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/GLONASS/VisibleZones.php">Зоны видимости</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/GLONASS/CalculateVisibleZones.php">Расчет зон видимости</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/GLONASS/CumulativeAvailability.php">Интегральная доступность </a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/GLONASS/MomentaryAvailability.php">Мгновенная доступность </a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li class="item-selected"><a href="https://www.glonass-iac.ru/GLONASS/specifyRINEX.php">Уточнение координат (RINEX)</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/GLONASS/midlReports.php">Потребительский уровень</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/GLONASS/technical_characteristics.php">Оценка характеристик</a></li>
+			
+		
+	
+	
+
+			</ul></li>	
+	
+					<li><a href="https://www.glonass-iac.ru/BEIDOU/" class="root-item">БЭЙДОУ</a>
+				<ul>
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/BEIDOU/index.php">Состояние ОГ БЭЙДОУ</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/BEIDOU/beidou_almanac.php">Эфемериды БЭЙДОУ</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/BEIDOU/characteristic.php">Характеристики ГНСС</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/BEIDOU/committee.php">Российско-китайский комитет</a></li>
+			
+		
+	
+	
+
+			</ul></li>	
+	
+					<li><a href="https://www.glonass-iac.ru/GPS/" class="root-item">GPS</a>
+				<ul>
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/GPS/index.php">Состояние ОГ</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/GPS/ephemeris.php">Эфемериды</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/GPS/rtgps.php">Мониторинг</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/GPS/technical_characteristics.php">Оценка характеристик</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/GPS/midlReports.php">Потребительский уровень</a></li>
+			
+		
+	
+	
+
+			</ul></li>	
+	
+					<li><a href="https://www.glonass-iac.ru/content/news/" class="root-item">Новости</a>
+				<ul>
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/content/news/index.php">Все</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/content/news/?SECTION_ID=2">Новости ГНСС</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/content/news/?SECTION_ID=1">Новости ГЛОНАСС</a></li>
+			
+		
+	
+	
+
+			</ul></li>	
+	
+					<li><a href="https://www.glonass-iac.ru/archive/" class="root-item">Архив</a>
+				<ul>
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/archive/index.php">Обзор</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/archive/MCC.php">IAC</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/archive/IGS.php">IGS</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/archive/IERS.php">IERS</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/archive/ILRS.php">ILRS</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/archive/FAF.php">FAF</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/archive/MAIL.php">MAIL</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/archive/GENRAL.php">GENERAL</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/archive/SVOEVP.php">SVOEVP</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/archive/REPORTS.php">REPORTS</a></li>
+			
+		
+	
+	
+
+			</ul></li>	
+	
+					<li><a href="https://www.glonass-iac.ru/guide/" class="root-item">О навигации</a>
+				<ul>
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/guide/index.php">История развития ГЛОНАСС</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/guide/gnss/history.php">История развития ГНСС</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/guide/navfaq.php">Принципы навигации</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/guide/gnss/function_dop.php">Функциональные дополнения</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/guide/gnss/index.php">Современные ГНСС</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/guide/gnss/glonass.php">ГЛОНАСС</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/guide/gnss/gps.php">GPS</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/guide/gnss/galileo.php">ГАЛИЛЕО</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/guide/gnss/beidou.php">БЭЙДОУ</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/guide/gnss/qzss.php">QZSS</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/guide/gnss/navic.php">NAVIC</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/guide/potrfaq.php">Вопросы потребителей</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/guide/equipm.php">Оборудование</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/guide/maps.php">Электронные карты</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/guide/transport.php">Системы мониторинга</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/guide/links.php">Полезные ссылки</a></li>
+			
+		
+	
+	
+
+			</ul></li>	
+	
+					<li><a href="https://www.glonass-iac.ru/midl/" class="root-item">МИДЛ</a>
+				<ul>
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/midl/index.php">Общие сведения</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/midl/princip.php">Принцип работы</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/midl/experience.php">Опыт использования</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/midl/docs.php">Документы</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/midl/services.php">Предоставление услуг</a></li>
+			
+		
+	
+	
+
+			</ul></li>	
+	
+					<li><a href="https://www.glonass-iac.ru/feedback/" class="root-item">Обратная связь</a>
+				<ul>
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/feedback/index.php">Задать вопрос</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/feedback/report_a_glonass_problem.php">Сообщить о проблеме</a></li>
+			
+		
+	
+	
+
+			</ul></li>	
+	
+					<li><a href="https://www.glonass-iac.ru/aboutIAC/" class="root-item">Об ИАЦ</a>
+				<ul>
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/aboutIAC/index.php">Об ИАЦ</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/aboutIAC/presentations.php">Презентации</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/aboutIAC/review.php">Обзор материалов СМИ</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/aboutIAC/silkroad2017.php">Эксперимент Шёлковый путь</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/aboutIAC/the_south_sea_route_in_2014_real_time.php">Антарктическая экспедиция</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/aboutIAC/the_northern_sea_route_in_2011_real_time.php">Северный морской путь 2011</a></li>
+			
+		
+	
+	
+
+	
+	
+		
+							<li><a href="https://www.glonass-iac.ru/aboutIAC/the_northern_sea_route.php">Северный морской путь 2006</a></li>
+			
+		
+	
+	
+
+	</ul></li>
+</ul></div>
+<div class="menu-clear-left"></div>
+	</div>
+  </div>
+
+<table id="content" cellpadding="0" cellspacing="0">
+	<tbody><tr>
+		<td class="left-column"><div class="left-menu" id="left-menu">
+	<ul>
+				<li><a href="https://www.glonass-iac.ru/CUSGLONASS/"><nobr>ЦУС ГЛОНАСС</nobr></a></li>
+				<li><a href="https://www.glonass-iac.ru/GLONASS/index.php"><nobr>Состав ОГ</nobr></a></li>
+				<li><a href="https://www.glonass-iac.ru/GLONASS/ephemeris.php"><nobr>Эфемериды</nobr></a></li>
+				<li><a href="https://www.glonass-iac.ru/GLONASS/currentPosition.php"><nobr>Текущее положение КА</nobr></a></li>
+				<li><a href="https://www.glonass-iac.ru/GLONASS/DayMonitoringNew.php"><nobr>Суточный мониторинг</nobr></a></li>
+				<li><a href="https://www.glonass-iac.ru/GLONASS/rtglo.php"><nobr>Мониторинг</nobr></a></li>
+				<li><a href="https://www.glonass-iac.ru/GLONASS/VisibleZones.php"><nobr>Зоны видимости</nobr></a></li>
+				<li><a href="https://www.glonass-iac.ru/GLONASS/CalculateVisibleZones.php"><nobr>Расчет зон видимости</nobr></a></li>
+				<li><a href="https://www.glonass-iac.ru/GLONASS/CumulativeAvailability.php"><nobr>Интегральная доступность </nobr></a></li>
+				<li><a href="https://www.glonass-iac.ru/GLONASS/MomentaryAvailability.php"><nobr>Мгновенная доступность </nobr></a></li>
+				<li class="selected"><a href="https://www.glonass-iac.ru/GLONASS/specifyRINEX.php"><nobr>Уточнение координат (RINEX)</nobr></a></li>
+				<li><a href="https://www.glonass-iac.ru/GLONASS/midlReports.php"><nobr>Потребительский уровень</nobr></a></li>
+				<li><a href="https://www.glonass-iac.ru/GLONASS/technical_characteristics.php"><nobr>Оценка характеристик</nobr></a></li>
+	</ul>
+</div>
+
+	</td>
+	<td class="main-column">
+				<div id="navigation"></div>
+			<!--<h1 id="pagetitle">Уточнение координат на основе RINEX-файла</h1>--><h1>Уточнение координат (RINEX)</h1>
+  <p>Вы можете получить координаты интересующего Вас пункта в международной системе ITRF. Для этого необходимо выслать по адресу <a href="mailto:rinex@glonass-iac.ru">rinex@glonass-iac.ru</a> RINEX-файл двухчастотного навигационного приемника, антенна которого установлена в данном пункте. Результаты обработки навигационных данных будут переданы по указанному Вами адресу электронной почты либо отправителю RINEX-файла.</p>
+
+  <p>Точность определения координат зависит от длительности измерений и удаления от опорных станций в системе ITRF.</p>
+
+  <p><i>Файлы измерительной информации в формате RINEX могут присылаться как в стандартном виде *.yyo (где yy номер года, например 08o), так и в cжатом *.yyd и *.yyd.Z</i></p>
+
+  <p>Требования к исходным RINEX-файлам являются стандартными для данной процедуры:</p>
+
+  <ol>
+    <li>Присылаемый файл должен соответствовать стандарту <a href="https://www.glonass-iac.ru/GLONASS/docs/rinex2.htm" target="_parent">RINEX</a>. </li>
+  
+    <li>Необходимо наличие приближённых координат уточняемой точки в заголовке RINEX-файла. Если это невозможно, то в отдельном файле должны быть переданы приближённые значения координат уточняемой точки (например, широты и долготы). </li>
+  
+    <li>Измерительная информация приёмника должна быть привязана к целой секунде времени GPS. </li>
+  
+    <li>Длительность измерений - от нескольких часов до суток. </li>
+  
+    <li>Интервал измерений - 30 сек. </li>
+  </ol>
+
+  <p>Если у Вас есть какие-либо дополнительные вопросы по предоставляемому сервису, Вы можете обратиться по адресу: <a href="mailto:ianc@glonass-iac.ru">ianc@glonass-iac.ru</a>. </p>
+ 
+
+ 
+
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" class="right-shadow">
+		<div class="footer-box">
+		</div>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" align="center">
+			<div id="footer">
+				2005-2019 © Информационно-аналитический центр КВНО ФГУП ЦНИИмаш, г. Королев, Россия<br>
+<a href="https://www.glonass-iac.ru/policy.php">Правила использования информации</a>
+        		</div>
+		</td>
+	</tr>
+        </tbody></table>
+  </div>
+</div>
+
+</body></html>

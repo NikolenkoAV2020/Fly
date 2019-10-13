@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DF43008F-20EB-4CA5-829F-CE45FC3BAE8F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>FlyCore</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>.;..\_FlyInclude;$(IncludePath)</IncludePath>
+    <LibraryPath>..\_Flylib\$(Configuration);$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)..\$(Configuration)\$(ProjectName)\</OutDir>
+    <IntDir>$(SolutionDir)..\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)..\$(Configuration)\$(ProjectName)\</OutDir>
+    <IntDir>$(SolutionDir)..\$(Configuration)\$(ProjectName)\</IntDir>
+    <IncludePath>.;..\_FlyInclude;$(IncludePath)</IncludePath>
+    <LibraryPath>..\_Flylib\$(Configuration);$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;FLYCORE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StructMemberAlignment>16Bytes</StructMemberAlignment>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/FS %(AdditionalOptions)</AdditionalOptions>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>..\_FlyLib\$(Configuration)\$(TargetName).lib</ImportLibrary>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+    </Link>
+    <PostBuildEvent>
+      <Command>Move $(OutDir)$(TargetName)$(TargetExt) $(ProjectDir)..\_FlyExecut\$(Configuration)
+del $(ProjectDir)..\_FlyLib\$(Configuration)\$(TargetName).exp
+mkdir $(ProjectDir)..\_FlyInclude\$(TargetName)Source
+Copy .\$(TargetName)Source\*.h  $(ProjectDir)..\_FlyInclude\$(TargetName)Source
+Copy .\$(TargetName).h  $(ProjectDir)..\_FlyInclude
+Copy .\$(TargetName)Link.h  $(ProjectDir)..\_FlyInclude
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;FLYCORE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/FS %(AdditionalOptions)</AdditionalOptions>
+      <StructMemberAlignment>16Bytes</StructMemberAlignment>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ImportLibrary>..\_FlyLib\$(Configuration)\$(TargetName).lib</ImportLibrary>
+    </Link>
+    <PostBuildEvent>
+      <Command>Move $(OutDir)$(TargetName)$(TargetExt) $(ProjectDir)..\_FlyExecut\$(Configuration)
+del $(ProjectDir)..\_FlyLib\$(Configuration)\$(TargetName).exp
+mkdir $(ProjectDir)..\_FlyInclude\$(TargetName)Source
+Copy .\$(TargetName)Source\*.h  $(ProjectDir)..\_FlyInclude\$(TargetName)Source
+Copy .\$(TargetName).h  $(ProjectDir)..\_FlyInclude
+Copy .\$(TargetName)Link.h  $(ProjectDir)..\_FlyInclude
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FlyCore.h" />
+    <ClInclude Include="FlyCoreLink.h" />
+    <ClInclude Include="FlyCoreSource\ModAstro.h" />
+    <ClInclude Include="FlyCoreSource\ZCAlgebraicMDF.h" />
+    <ClInclude Include="FlyCoreSource\ZCAlgebraicMdfHolder.h" />
+    <ClInclude Include="FlyCoreSource\ZCDU.h" />
+    <ClInclude Include="FlyCoreSource\ZCStorageBinaryFile.h" />
+    <ClInclude Include="FlyCoreSource\ZCEopManager.h" />
+    <ClInclude Include="FlyCoreSource\ZCEventManager.h" />
+    <ClInclude Include="FlyCoreSource\ZCISAManager.h" />
+    <ClInclude Include="FlyCoreSource\ZCMiniStackKeeper.h" />
+    <ClInclude Include="FlyCoreSource\ZCPrintFormat.h" />
+    <ClInclude Include="FlyCoreSource\ZCPrintManager.h" />
+    <ClInclude Include="FlyCoreSource\ZFDUCalc.h" />
+    <ClInclude Include="FlyCoreSource\ZFGPZLoad.h" />
+    <ClInclude Include="FlyCoreSource\ZMForceAtm.h" />
+    <ClInclude Include="FlyCoreSource\ZMForceAtmDMA1990_Gost25645115.h" />
+    <ClInclude Include="FlyCoreSource\ZMForceAtmDMA1990_Gost25645115Data.h" />
+    <ClInclude Include="FlyCoreSource\ZMForceAtmDMA2001_Gost25645000.h" />
+    <ClInclude Include="FlyCoreSource\ZMForceAtmDMA2001_Gost25645000Data.h" />
+    <ClInclude Include="FlyCoreSource\ZMForceAtmDMA2004_Gost25645166.h" />
+    <ClInclude Include="FlyCoreSource\ZMForceAtmDMA2004_Gost25645166Data.h" />
+    <ClInclude Include="FlyCoreSource\ZMForceAtmDMAGost.h" />
+    <ClInclude Include="FlyCoreSource\ZMForceAtmDMAISA.h" />
+    <ClInclude Include="FlyCoreSource\ZMForceAtmMsis.h" />
+    <ClInclude Include="FlyCoreSource\ZMForceAtmMsis2000.h" />
+    <ClInclude Include="FlyCoreSource\ZMForceAtmMsis2000Struct.h" />
+    <ClInclude Include="FlyCoreSource\ZMForceAtmMsis90Data.h" />
+    <ClInclude Include="FlyCoreSource\ZMForceAtmSMA.h" />
+    <ClInclude Include="FlyCoreSource\ZMForceAtmSMA62.h" />
+    <ClInclude Include="FlyCoreSource\ZMForceAtmSMA81.h" />
+    <ClInclude Include="FlyCoreSource\ZMForceAtmSMAGost440181.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="FlyCoreSource\ZMForceOceanTide.h" />
+    <ClInclude Include="FlyCoreSource\ModGlobal.h" />
+    <ClInclude Include="FlyCoreSource\ModPU.h" />
+    <ClInclude Include="FlyCoreSource\ModPUItem.h" />
+    <ClInclude Include="FlyCoreSource\ModPUManager.h" />
+    <ClInclude Include="FlyCoreSource\ModPUSwitchOn.h" />
+    <ClInclude Include="FlyCoreSource\ModSK.h" />
+    <ClInclude Include="FlyCoreSource\ModType.h" />
+    <ClInclude Include="FlyCoreSource\Z.h" />
+    <ClInclude Include="FlyCoreSource\ZAvrE0.h" />
+    <ClInclude Include="FlyCoreSource\ZCalc.h" />
+    <ClInclude Include="FlyCoreSource\ZCExternalEquations.h" />
+    <ClInclude Include="FlyCoreSource\ZCIntegrator.h" />
+    <ClInclude Include="FlyCoreSource\ZCMemoryKeeper.h" />
+    <ClInclude Include="FlyCoreSource\ZEOPManager.h" />
+    <ClInclude Include="FlyCoreSource\ZERP.H" />
+    <ClInclude Include="FlyCoreSource\ZFarg.h" />
+    <ClInclude Include="FlyCoreSource\ZFUS.h" />
+    <ClInclude Include="FlyCoreSource\ZHBL.h" />
+    <ClInclude Include="FlyCoreSource\ZIndex.h" />
+    <ClInclude Include="FlyCoreSource\ZMessageManager.h" />
+    <ClInclude Include="FlyCoreSource\ZMForceGrav.h" />
+    <ClInclude Include="FlyCoreSource\ZMForcePlanet.h" />
+    <ClInclude Include="FlyCoreSource\ZMForceSPD.h" />
+    <ClInclude Include="FlyCoreSource\ZMoon.h" />
+    <ClInclude Include="FlyCoreSource\ZMSpaceCraft.h" />
+    <ClInclude Include="FlyCoreSource\ZNIP.H" />
+    <ClInclude Include="FlyCoreSource\ZCNumParser.h" />
+    <ClInclude Include="FlyCoreSource\ZNUT.h" />
+    <ClInclude Include="FlyCoreSource\ZPR.h" />
+    <ClInclude Include="FlyCoreSource\ZSiderealTime.h" />
+    <ClInclude Include="FlyCoreSource\ZSK.h" />
+    <ClInclude Include="FlyCoreSource\ZSKNU.h" />
+    <ClInclude Include="FlyCoreSource\ZSmartPtr.h" />
+    <ClInclude Include="FlyCoreSource\ZSun.h" />
+    <ClInclude Include="FlyCoreSource\ZFUofNU01.h" />
+    <ClInclude Include="FlyCoreSource\ZFUofNU50.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FlyCore.cpp" />
+    <ClCompile Include="FlyCoreSource\Aejg.cpp" />
+    <ClCompile Include="FlyCoreSource\Anal_ae.cpp" />
+    <ClCompile Include="FlyCoreSource\ModAstro.cpp" />
+    <ClCompile Include="FlyCoreSource\Model_pv.cpp" />
+    <ClCompile Include="FlyCoreSource\ZCAlgebraicLocalModFactory.cpp" />
+    <ClCompile Include="FlyCoreSource\ZCAlgebraicMDF.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZCAlgebraicMdfHolder.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZCDU.cpp" />
+    <ClCompile Include="FlyCoreSource\ZCPrintManagerAflatHtml.cpp" />
+    <ClCompile Include="FlyCoreSource\ZCPrintManagerAflatText.cpp" />
+    <ClCompile Include="FlyCoreSource\ZCPrintManagerApeakHtml.cpp" />
+    <ClCompile Include="FlyCoreSource\ZCPrintManagerApeakText.cpp" />
+    <ClCompile Include="FlyCoreSource\ZCStorageBinaryFile.cpp" />
+    <ClCompile Include="FlyCoreSource\ZCEopManager.cpp" />
+    <ClCompile Include="FlyCoreSource\ZCEventManager.cpp" />
+    <ClCompile Include="FlyCoreSource\ZCISAManager.cpp" />
+    <ClCompile Include="FlyCoreSource\ZCPrintFormat.cpp" />
+    <ClCompile Include="FlyCoreSource\ZCPrintManager.cpp" />
+    <ClCompile Include="FlyCoreSource\ZCPrintManagerAflat.cpp" />
+    <ClCompile Include="FlyCoreSource\ZCPrintManagerApeak.cpp" />
+    <ClCompile Include="FlyCoreSource\ZCPrintManagerPLHS.cpp" />
+    <ClCompile Include="FlyCoreSource\ZCPrintManagerPNU.cpp" />
+    <ClCompile Include="FlyCoreSource\ZFDUCalc.cpp" />
+    <ClCompile Include="FlyCoreSource\ZFGPZLoad.cpp" />
+    <ClCompile Include="FlyCoreSource\ZMForceAtm.cpp" />
+    <ClCompile Include="FlyCoreSource\ZMForceAtmDMA1990_Gost25645115.cpp" />
+    <ClCompile Include="FlyCoreSource\ZMForceAtmDMA2001_Gost25645000.CPP" />
+    <ClCompile Include="FlyCoreSource\ZMForceAtmDMA2004_Gost25645166.cpp" />
+    <ClCompile Include="FlyCoreSource\ZMForceAtmDMAGost.cpp" />
+    <ClCompile Include="FlyCoreSource\ZMForceAtmMsis.cpp" />
+    <ClCompile Include="FlyCoreSource\ZMForceAtmMsis2000.cpp" />
+    <ClCompile Include="FlyCoreSource\ZMForceAtmMsis2000Data.cpp" />
+    <ClCompile Include="FlyCoreSource\ZMForceAtmMsis90.cpp" />
+    <ClCompile Include="FlyCoreSource\ZMForceAtmSMA62.cpp" />
+    <ClCompile Include="FlyCoreSource\ZMForceAtmSMA81.cpp" />
+    <ClCompile Include="FlyCoreSource\ZMForceAtmSMAGost440181.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZMForceOceanTide.cpp" />
+    <ClCompile Include="FlyCoreSource\ModGlobal.cpp" />
+    <ClCompile Include="FlyCoreSource\ModLoadSave.cpp" />
+    <ClCompile Include="FlyCoreSource\ModPU.cpp" />
+    <ClCompile Include="FlyCoreSource\ModPUItem.cpp" />
+    <ClCompile Include="FlyCoreSource\ModPUManager.cpp" />
+    <ClCompile Include="FlyCoreSource\ModPUSwitchOn.cpp" />
+    <ClCompile Include="FlyCoreSource\ModSK.cpp" />
+    <ClCompile Include="FlyCoreSource\ZASCRLN.cpp" />
+    <ClCompile Include="FlyCoreSource\ZAvrE0.cpp" />
+    <ClCompile Include="FlyCoreSource\ZCalc.cpp" />
+    <ClCompile Include="FlyCoreSource\ZCExternalEquations.cpp" />
+    <ClCompile Include="FlyCoreSource\ZFCheckSum.cpp" />
+    <ClCompile Include="FlyCoreSource\ZCIntegrator.cpp" />
+    <ClCompile Include="FlyCoreSource\ZCIntegratorAdm.cpp" />
+    <ClCompile Include="FlyCoreSource\ZCIntegratorRK.cpp" />
+    <ClCompile Include="FlyCoreSource\ZCMemoryKeeper.cpp" />
+    <ClCompile Include="FlyCoreSource\ZEOPManager.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="FlyCoreSource\ZERP.CPP" />
+    <ClCompile Include="FlyCoreSource\ZFarg.cpp" />
+    <ClCompile Include="FlyCoreSource\ZFUS.cpp" />
+    <ClCompile Include="FlyCoreSource\ZHBL.cpp" />
+    <ClCompile Include="FlyCoreSource\ZIndex.cpp" />
+    <ClCompile Include="FlyCoreSource\ZMessageManager.cpp" />
+    <ClCompile Include="FlyCoreSource\ZMForceGrav.cpp" />
+    <ClCompile Include="FlyCoreSource\ZMForcePlanet.cpp" />
+    <ClCompile Include="FlyCoreSource\ZMForceSPD.cpp" />
+    <ClCompile Include="FlyCoreSource\ZMoon.cpp" />
+    <ClCompile Include="FlyCoreSource\ZMSpaceCraft.cpp" />
+    <ClCompile Include="FlyCoreSource\ZMSpaceCraftSPH.cpp" />
+    <ClCompile Include="FlyCoreSource\ZMSpaceCraftStep.cpp" />
+    <ClCompile Include="FlyCoreSource\ZMSpaceCraftStory.cpp" />
+    <ClCompile Include="FlyCoreSource\ZMSpaceCraftTime.cpp" />
+    <ClCompile Include="FlyCoreSource\ZMSpaceCraftVitok.cpp" />
+    <ClCompile Include="FlyCoreSource\ZNIP.CPP" />
+    <ClCompile Include="FlyCoreSource\ZCNumParser.cpp" />
+    <ClCompile Include="FlyCoreSource\ZNUT.cpp" />
+    <ClCompile Include="FlyCoreSource\ZNUT2003.cpp" />
+    <ClCompile Include="FlyCoreSource\ZPoleXY.cpp" />
+    <ClCompile Include="FlyCoreSource\ZPR.cpp" />
+    <ClCompile Include="FlyCoreSource\ZSiderealTime.cpp" />
+    <ClCompile Include="FlyCoreSource\ZSK.cpp" />
+    <ClCompile Include="FlyCoreSource\ZSKNU.cpp" />
+    <ClCompile Include="FlyCoreSource\ZSun.cpp" />
+    <ClCompile Include="FlyCoreSource\ZFUofNU01.cpp" />
+    <ClCompile Include="FlyCoreSource\ZFUofNU50.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,47 @@
+-------------------------------------------------------------------------
+ ITRS and WGS84
+ Last update : 2013-12-11
+-------------------------------------------------------------------------
+
+In general the ITRS (and its realizations ITRFyy) are identical to WGS84
+at one meter level. 
+
+Meanwhile there are two types of WGS84 realizations:
+
+- New realizations of WGS84 based on GPS data, such as WGS84(G730, G873, 
+  G1150 and G1674). These new WGS84 realizations are coincident with ITRF at 
+  about 10-centimeter level. For these realizations there are no official
+  transformation parameters. This means that one can consider that ITRF 
+  coordinates are also expressed in WGS84 at 10 cm level. However, the most
+  recent G1674 realization adopted ITRF2008 coordinates for more than half of
+  the reference stations and velocities of nearby sites for the others. Thus, 
+  ITRF2008 and WGS84(G1674) are likely to agree at the centimeter level,  
+  yielding conventional 0-transformation parameters.
+
+  For more information about WGS84 realizations, see:
+  . U.S. National Imagery and Mapping Agency, "Department of Defense World 
+  Geodetic System 1984 -- Its Definition and Relationships with Local Geodetic 
+  Systems."  NIMA Technical Report 8350.2 3rd release, St. Louis, MO, 23 June 
+  2004. http://earth-info.nga.mil/GandG/publications/tr8350.2/tr8350_2.html 
+  . Wong R., C. M. Rollins and C. F. Minter (2012) Recent Updates to the WGS 84 
+  Reference Frame, Proceedings of the 25th International Technical Meeting
+  of the Satellite Divison of the Institution of Navigation (ION GNSS 2012), 
+  p1164-1172.
+
+- old realization based on U.S. Navy Navigation Satellite System,
+  commonly known as DOPPLER Transit, and provided station coordinates 
+  with accuracies of about one meter. With respect to this realization
+  we published, some years ago, transformation parameters between
+  ITRF90 and this Doppler realized system:
+
+Parameters from ITRF90 to WGS84-Doppler realized system
+
+             T1      T2      T3       D         R1       R2        R3   
+UNITS -----> (m)     (m)     (m)     (ppm)     (")       (")       (")  
+   
+-----------------------------------------------------------------------
+            0.060   -0.517  -0.223  -0.011    0.0183  -0.0003    0.0070
+
+
+
+  	

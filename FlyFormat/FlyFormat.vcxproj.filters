@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="SourceFlyFormat">
+      <UniqueIdentifier>{e49b7812-ca11-4025-98b7-b0fa4b082b00}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FlyFormatSource\EdfDef.h">
+      <Filter>SourceFlyFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyFormatSource\EdfStr.h">
+      <Filter>SourceFlyFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyFormatSource\EdfType.h">
+      <Filter>SourceFlyFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyFormatSource\RDate.h">
+      <Filter>SourceFlyFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyFormatSource\RGradTime.h">
+      <Filter>SourceFlyFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyFormatSource\RMoment.h">
+      <Filter>SourceFlyFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyFormat.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FlyFormatSource\EdfStr.cpp">
+      <Filter>SourceFlyFormat</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyFormatSource\EdfStrUTCIAT.cpp">
+      <Filter>SourceFlyFormat</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyFormatSource\RDate.cpp">
+      <Filter>SourceFlyFormat</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyFormatSource\RGradTime.cpp">
+      <Filter>SourceFlyFormat</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyFormatSource\RMoment.cpp">
+      <Filter>SourceFlyFormat</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyFormat.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source SSP">
+      <UniqueIdentifier>{f430de4c-9af5-43b2-903b-336aa6dcdb46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header SSP">
+      <UniqueIdentifier>{f2ea2edb-a30e-4c54-b8c4-378722c863db}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FlySSP.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="FlySSPSource\ssp.h">
+      <Filter>Header SSP</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FlySSP.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="FlySSPSource\ACFI.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\AHI.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\ALI.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\ANW.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\APCH.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\APCHA.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\APFS.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\APLL.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\APMM.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\ARAT.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\ATANK.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\ATSE.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\ATSG.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\ATSM.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\AVEVAR.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\BCPY.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\CCPY.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\CMPLX.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\CNP.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\CNPS.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\CONJ.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\CORR.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\CORRE.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\CORT.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\CSP.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\CSPS.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\DBAR.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\DCAR.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\DET3.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\DET5.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\DGT3.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\DIFGMPRD.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\EPS.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\FCFAW.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\FCFBW.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\FFTRAN.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\FNW.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\FORIF.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\FORIT.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\FORITG.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\FORITN.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\FRAT.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\GAMMA.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\GAUSS.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\GMADD.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\GMPRD.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\GMSMGT.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\GMSUB.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\GMTRA.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\GOLD.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\GTPRD.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\HEP.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\HEPS.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\LAP.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\LAPS.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\LEP.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\LEPP.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\LEPS.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\LOC.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\MADD.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\MATA.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\MAX.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\MCPY.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\MDIAN1.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\MDIAN2.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\MEAN.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\MGS.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\MIN.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\MINV.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\MOMEN.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\MOMENT.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\MPRD.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\MSECH.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\MSTR.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\MSUB.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\MTRA.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\NDTR.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\NDTRI.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\NORMX.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\NORMX11.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\ORDER.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\OVERFL.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\PADD.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\PADDM.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\PCLA.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\PDIV.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\PMPY.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\PNORM.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\POLRT.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\PQFB.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\PRBM.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\PRQD.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\PSI.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\PSUB.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\PVAL.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\PVSUB.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\QATR.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\QSF.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\QTFG.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\RANDM.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\RANDTD.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\RANDU.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\RCPY.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\RTNI.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\SADD.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\SDAD.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\SDIV.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\SE13.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\SE15.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\SE35.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\SEVAL.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\SG13.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\SIGN.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\SING.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\SMPY.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\SPLINE.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\SQF.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\SQFT.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\SSUB.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\STPRG.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\SVD.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\TCNP.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\TCSP.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\THEP.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\TLAP.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\TLEP.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\TPRD.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\TRENDD.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\TRENDI.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\TRENDIS.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\TRENDL.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\TRENDLS.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\TRENDQ.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\TRENDQS.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\URAND.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\VCPY.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\VSUB.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySSPSource\XCPY.C">
+      <Filter>Source SSP</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

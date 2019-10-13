@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Time">
+      <UniqueIdentifier>{bc76111c-d1e4-410b-b13f-12bc3b17ca9f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FlyTime.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="FlyTimeSource\ModTime.h">
+      <Filter>Source Time</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyTimeSource\TheDataTime.h">
+      <Filter>Source Time</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyTimeSource\TheDblTime.h">
+      <Filter>Source Time</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyTimeSource\TheJD.h">
+      <Filter>Source Time</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyTimeSource\TheTimes.h">
+      <Filter>Source Time</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyTimeSource\TheUT1UTC.h">
+      <Filter>Source Time</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyTimeSource\ZTime.h">
+      <Filter>Source Time</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyTimeSource\LeapSeconds.h">
+      <Filter>Source Time</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FlyTime.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="FlyTimeSource\ModTime.cpp">
+      <Filter>Source Time</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyTimeSource\TheDataTime.cpp">
+      <Filter>Source Time</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyTimeSource\TheDblTime.cpp">
+      <Filter>Source Time</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyTimeSource\TheJD.cpp">
+      <Filter>Source Time</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyTimeSource\TheTimes.cpp">
+      <Filter>Source Time</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyTimeSource\TheUT1UTC.cpp">
+      <Filter>Source Time</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyTimeSource\ZTime.cpp">
+      <Filter>Source Time</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyTimeSource\LeapSeconds.cpp">
+      <Filter>Source Time</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

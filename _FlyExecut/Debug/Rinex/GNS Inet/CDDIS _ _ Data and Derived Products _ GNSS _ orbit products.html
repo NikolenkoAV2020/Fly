@@ -1,0 +1,586 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0073)https://cddis.nasa.gov/Data_and_Derived_Products/GNSS/orbit_products.html -->
+<html xmlns="http://www.w3.org/1999/xhtml" style="box-sizing:content-box;!important;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- Google Tag Manager -->
+<script type="text/javascript" async="" src="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/analytics.js"></script><script async="" src="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/analytics.js"></script><script async="" src="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/gtm.js"></script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WNP7MLF');</script>
+<!-- End Google Tag Manager -->
+
+<meta name="description" content="The Crustal Dynamics Data Information System (CDDIS) continues to support the space geodesy and geodynamics community through NASA&#39;s Space Geodesy Project as well as NASA&#39;s Earth Science Enterprise. Today, the CDDIS archives and distributes mainly Global Navigation Satellite Systems (GNSS, currently Global Positioning System GPS and GLObal NAvigation Satellite System GLONASS), laser ranging (both to artificial satellites, SLR, and lunar, LLR), Very Long Baseline Interferometry (VLBI), and Doppler Orbitography and Radio-positioning Integrated by Satellite (DORIS) data for an ever increasing user community of geophysicists.">
+<meta name="keywords" content="geodesy, GNSS data, DORIS data, SLR data, VLBI data, data archive, lw20, lw19, lw18, laser ranging">
+<link rel="icon" href="https://cddis.nasa.gov/css/images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="https://cddis.nasa.gov/css/images/favicon.ico" type="image/x-icon"> 
+<link rel="stylesheet" href="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/jquery-ui.css">
+<link rel="stylesheet" href="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/ol.css">
+<link rel="stylesheet" href="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/cddis.css">
+<script src="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/jquery-3.2.1.js"></script>
+<script src="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/jquery-migrate-3.0.0.min.js"></script>
+<script src="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/jquery-ui.js"></script>
+<script src="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/banner_widget.js"></script>
+<script src="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/jquery.validate.js"></script>
+<script src="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/additional-methods.js"></script>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<meta http-equiv="X-UA-Compatible" content="IE=10; IE=9; IE=8; IE=7; IE=EDGE">
+		<!--  Stylesheet Includes -->
+		<link rel="stylesheet" href="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/cddis.css">
+		<script src="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/activePage.js"></script>
+ 		<script src="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/setPageTitle.js"></script>
+      <script src="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/jquery.floatThead.js"></script>
+	<script language="JavaScript">
+			<!--
+			   	setPageTitle();
+			-->
+		</script><title>CDDIS |  | Data and Derived Products | GNSS | orbit products</title>
+<script>
+$(function() {
+$( "#startDate" ).datepicker({
+changeMonth: true,
+changeYear: true
+});
+});
+</script>
+<script>
+$(function() {
+$( "#endDate" ).datepicker({
+changeMonth: true,
+changeYear: true
+});
+});
+</script>
+
+<!-- add code for Google's Universal Analytics -->
+
+<script language="javascript" id="_fed_an_ua_tag" src="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/Universal-Federated-Analytics-Min.js"></script>
+
+<!-- add feedback form code -->
+
+<script src="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/feedback.js" type="text/javascript"></script>
+    <!-- Add Tophat -->
+<script src="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/tophat2.js" id="earthdata-tophat-script" data-current-daac="CDDIS" data-show-fbm="true" type="text/javascript"></script><script src="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/ntpagetag.js"></script><link href="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/css" rel="stylesheet" type="text/css"><link href="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/eui-icon-library.css" rel="stylesheet" type="text/css"><link href="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/tophat2.css" rel="stylesheet" type="text/css"><link href="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/font-awesome.min.css" rel="stylesheet" type="text/css"><script src="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/jquery-2.1.3.min.js"></script>
+
+<!--<noscript>
+<div style="background: white; color: black; padding: 3px; text-align: center;">Javascript is not enabled to display NASA's Earthdata Network navigation bar. You may alternatively view this <a href="http://earthdata.nasa.gov/tophat-links.html">here</a></div>
+</noscript>-->
+
+		<script type="text/javascript">
+			function writeMainDiv() {
+  				scheckURL = new String;
+				mainDiv = new String;
+				scheckURL  = document.location.href;
+  				if (scheckURL  == "http:\/\/cddiis.gsfc.nasa.gov\/index.html")
+  					{mainDiv = "<div class=\"content home\">";}
+				else
+					{mainDiv = "<div class=\"content\">"; }
+ 				document.write(mainDiv);
+  				return;
+			}
+        </script>
+	<link rel="stylesheet" type="text/css" href="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/feedback.css"><link rel="stylesheet" type="text/css" href="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/banner_widget-38837808518d354941986023e80aa775ed5eda527af68e43ffbc8b4e3f4221da.css"><link rel="stylesheet" type="text/css" href="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/eui-icon-library(1).css"></head>
+	<body><div class="th-wrapper"><header id="earthdata-tophat2"><div class="th-left-section"><div class="th-left-title"><a href="https://earthdata.nasa.gov/" id="th-home-link">EARTH<b>DATA</b></a></div></div><div class="th-link-container th-help-link-container"><a href="javascript:void(0);" id="th-help-link" class="th-right-panel-link"><i class="fa fa-question-circle"></i><div class="th-menu-panel th-help-panel"><div class="th-help-panel-content"><span><b>Welcome to NASA's EOSDIS</b></span><p>NASA's Earth Observing System Data and Information System (EOSDIS) is a key core capability in NASA’s Earth Science Data Systems Program for archiving and distributing Earth science data from multiple missions to users. </p> <p>This bar indicates that you are within the EOSDIS enterprise which includes 12 science discipline-oriented Distributed Active Archive Centers (DAACs) supporting diverse user communities in science research, applied science research, applications, as well as the general interested public.</p> <p><b>Find a DAAC / Other DAACs</b> - Use these links to navigate to any of the 12 EOSDIS DAACs. </p><p><i class="fa fa-comments-o"></i> Feedback - Provide feedback about the site that is currently being viewed. </p></div></div></a></div><div class="th-link-container th-fbm-link-container"><a href="javascript:void(0);" id="th-fbm-link" class="th-right-panel-link th-fbm-link"><i class="fa fa-comments-o"></i><span class="th-feedback-text">Feedback</span></a></div><div class="th-link-container th-menu-section"><a href="javascript:void(0);" id="daac-links-header">Other DAACs<span class="th-arrow">▾</span><div class="th-menu-panel th-daac-links"><ul><li><a title="Atmospheric Science Data Center (ASDC)" href="https://eosweb.larc.nasa.gov/" target="_blank">ASDC</a></li><li><a title="Alaska Satellite Facility (ASF) Distributed Active Archive Center (DAAC)" href="https://www.asf.alaska.edu/about/asf-daac" target="_blank">ASF DAAC</a></li><li><a title="Crustal Dynamics Data Information System (CDDIS)" href="http://cddis.gsfc.nasa.gov/" target="_blank"><b>CDDIS</b></a></li><li><a title="Goddard Earth Sciences Data and Information Services Center (GES DISC)" href="https://disc.gsfc.nasa.gov/" target="_blank">GES DISC</a></li><li><a title="Global Hydrology Resource Center (GHRC) Distributed Active Archive Center (DAAC)" href="https://ghrc.nsstc.nasa.gov/home/" target="_blank">GHRC DAAC</a></li><li><a title="Level 1 Atmosphere Archive and Distribution System (LAADS) Distributed Active Archive Center (DAAC)" href="https://ladsweb.modaps.eosdis.nasa.gov/" target="_blank">LAADS DAAC</a></li><li><a title="Land Processes Distributed Active Archive Center (LP DAAC)" href="https://lpdaac.usgs.gov/" target="_blank">LP DAAC</a></li><li><a title="National Snow and Ice Data Center (NSIDC) Distributed Active Archive Center (DAAC)" href="http://nsidc.org/daac/" target="_blank">NSIDC DAAC</a></li><li><a title="Ocean Biology Distributed Active Archive Center (OB.DAAC)" href="https://oceancolor.gsfc.nasa.gov/" target="_blank">OB.DAAC</a></li><li><a title="Oak Ridge National Laboratory (ORNL) Distributed Active Archive Center (DAAC)" href="http://daac.ornl.gov/" target="_blank">ORNL DAAC</a></li><li><a title="Physical Oceanography Distributed Active Archive Center (PO.DAAC)" href="http://podaac.jpl.nasa.gov/" target="_blank">PO.DAAC</a></li><li><a title="Socioeconomic Data and Applications Data Center (SEDAC)" href="http://sedac.ciesin.columbia.edu/" target="_blank">SEDAC</a></li></ul></div></a></div></header></div>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WNP7MLF"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+	<a name="top"></a>
+	<script language="JavaScript">
+			<!--
+			   	writeMainDiv();
+			-->
+		</script><div class="content">
+        			
+			<div>
+					
+			<div class="logo"></div>
+<!-- Add the Status banner -->
+<div id="earthdata-notification-banner" style="padding-top:40px;"></div>
+<!-- End Status banner --><div class="siteheader" style="margin-top:62px;"><a href="https://cddis.nasa.gov/index.html"><img src="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/header.png" border="0" alt="CDDIS: NASA&#39;s Archive of Space Geodesy Data" vspace="0" hspace="0" width="487" height="42"></a></div>
+			<div class="nav">
+				<ul>
+					<li><a href="https://cddis.nasa.gov/index.html" id="home">Home</a></li>
+					<li><a href="https://cddis.nasa.gov/About/Background.html" id="about">About CDDIS</a>
+						<ul>
+							<li class="topnav"><a href="https://cddis.nasa.gov/About/Background.html">About CDDIS</a></li>
+							<li><a href="https://cddis.nasa.gov/About/Background.html">Background</a></li>
+							<li><a href="https://cddis.nasa.gov/About/Data_citation_and_acknowledgment.html">Citing Our Data</a></li>
+							<li><a href="https://cddis.nasa.gov/News/Latest_News.html">News</a></li>
+                            <li><a href="https://cddis.nasa.gov/About/Meetings.html">Meetings</a></li>
+							<li><a href="https://cddis.nasa.gov/About/Space_Geodesy_Contacts.html">Space Geodesy Contacts</a></li>
+							<li><a href="https://cddis.nasa.gov/About/Links.html">Links</a></li>
+							<li><a href="https://cddis.nasa.gov/About/FAQ.html">FAQ</a></li>
+                          	<li><a href="https://cddis.nasa.gov/About/Acronyms.html">Acronyms</a></li>
+							<li><a href="https://cddis.nasa.gov/About/Staff.html">Staff</a></li>
+						</ul>
+					</li>
+					<li><a href="https://cddis.nasa.gov/Data_and_Derived_Products/index.html" id="dataSets" class="selected">Data and Products</a>
+                    	<ul>
+                        	<li class="topnav"><a href="https://cddis.nasa.gov/Data_and_Derived_Products/index.html">Data and Products</a></li>
+                        	<li><a href="https://cddis.nasa.gov/Data_and_Derived_Products/GNSS/GNSS_data_and_product_archive.html">GNSS</a></li>
+							<li><a href="https://cddis.nasa.gov/Data_and_Derived_Products/SLR/SLR_data_and_product_archive.html">SLR</a></li>
+							<li><a href="https://cddis.nasa.gov/Data_and_Derived_Products/VLBI/VLBI_data_and_product_archive.html">VLBI</a></li>
+							<li><a href="https://cddis.nasa.gov/Data_and_Derived_Products/DORIS/DORIS_data_and_product_archive.html">DORIS</a></li>
+                            <li><a href="https://cddis.nasa.gov/Data_and_Derived_Products/Data_Discovery.html">Data discovery tools</a></li>
+                            <li><a href="https://cddis.nasa.gov/Data_and_Derived_Products/Reports.html">Reports</a></li>
+						</ul>
+                    </li>
+					<li><a href="https://cddis.nasa.gov/Techniques/index.html" id="techniques">Techniques</a>
+                    	<ul>
+                        	<li class="topnav"><a href="https://cddis.nasa.gov/Techniques/index.html">Techniques</a></li>
+                        	<li><a href="https://cddis.nasa.gov/Techniques/GNSS/GNSS_Overview.html">GNSS</a></li>
+							<li><a href="https://cddis.nasa.gov/Techniques/SLR/SLR_Overview.html">SLR</a></li>
+							<li><a href="https://cddis.nasa.gov/Techniques/VLBI/VLBI_Overview.html">VLBI</a></li>
+							<li><a href="https://cddis.nasa.gov/Techniques/DORIS/DORIS_Overview.html">DORIS</a></li>
+						</ul>
+                    </li>
+					<li><a href="https://cddis.nasa.gov/Programs/Current_Programs.html" id="programs">Programs</a>
+                    	<ul>
+                        	<li class="topnav"><a href="https://cddis.nasa.gov/Programs/Current_Programs.html">Programs</a></li>
+                        	<li><a href="https://cddis.nasa.gov/Programs/Current_Programs.html">Current</a></li>
+                        	<li><a href="https://cddis.nasa.gov/Programs/Historical_Programs.html">Historical</a></li>
+						</ul>
+						</li>
+					<li><a href="https://cddis.nasa.gov/Publications/Presentations.html" id="pubs">Publications</a>
+                    	<ul>
+                        	<li class="topnav"><a href="https://cddis.nasa.gov/Publications/Presentations.html">Publications</a></li>
+                        	<li><a href="https://cddis.nasa.gov/Publications/Presentations.html">Presentations</a></li>
+                        	<li><a href="https://cddis.nasa.gov/Publications/Papers.html">Papers</a></li>
+						</ul>
+                    </li>
+					<li><a href="https://cddis.nasa.gov/About/Data_citation_and_acknowledgment.html" id="cite">Citing our Data</a></li>
+					<li class="search">
+                    <form accept-charset="UTF-8" action="https://search.usa.gov/search" id="search_form" method="get"><div style="margin:0;padding:0;display:inline;width:130px;">
+					  <input name="utf8" type="hidden" value="✓">
+					</div>
+
+    <input id="affiliate" name="affiliate" type="hidden" value="cddis">
+ <!--   <label for="query"><span style="color:#FFF;">Enter Search Term(s):</span></label>-->
+    <input style="vertical-align:middle; width:130px;" autocomplete="off" class="usagov-search-autocomplete" id="query" name="query" type="text" onfocus="clearText();" value="CDDIS Text Search">
+        <input name="commit" type="hidden" value="Search">
+
+  </form>
+
+                    
+                    
+                   <!-- <input type="text" id="searchText" onfocus="clearText();" value="CDDIS Text Search"> --></li>
+				</ul>
+<script language="JavaScript">
+	<!--
+	setActiveLI();
+	-->
+</script>
+
+ 				</div>
+<script type="text/javascript">
+feedback.init({showIcon: false}) ;
+</script>
+
+			<div class="main_content" id="l2">
+				<div class="left_nav">
+					
+	<script type="text/javascript">
+
+function setActiveLI() {
+  sURL3 = new String;
+  activeDS = new String;
+  sURL3 = location.href;
+  if ((sURL3.indexOf("/Data_and_Derived_Products\/GNSS") != -1) || (sURL3.indexOf("/Caster_client_config") != -1)) {
+	  activeDS = "GNSSMain";
+	  document.getElementById("GNSS").style.display = "block";
+	  document.getElementById("GNSSArrow").src ="/images/downArrow.png"; 
+  	  if (sURL3.indexOf("GNSS_data_holdings.html") != -1) {
+		  document.getElementById("GNSSL1-1").setAttribute("class","selected"); 
+	  }
+	  if ((sURL3.indexOf("daily_30second_data.html") != -1) || (sURL3.indexOf("daily_gnss_d.html") != -1) || (sURL3.indexOf("daily_gnss_g.html") != -1) || (sURL3.indexOf("daily_gnss_m.html") != -1) || (sURL3.indexOf("daily_gnss_n.html") != -1) || (sURL3.indexOf("daily_gnss_o.html") != -1) || (sURL3.indexOf("daily_gnss_s.html") != -1)) {
+		  document.getElementById("GNSSL1-1-1").setAttribute("class","selected"); 
+	  }
+ 	  if ((sURL3.indexOf("hourly_30second_data.html") != -1) || (sURL3.indexOf("hourly_gnss_d.html") != -1) || (sURL3.indexOf("hourly_gnss_g.html") != -1) || (sURL3.indexOf("hourly_gnss_m.html") != -1) || (sURL3.indexOf("hourly_gnss_n.html") != -1)) {
+		  document.getElementById("GNSSL1-1-2").setAttribute("class","selected"); 
+	  }
+  	  if ((sURL3.indexOf("high-rate_data.html") != -1) || (sURL3.indexOf("gnss_highrate_d.html") != -1) || (sURL3.indexOf("gnss_highrate_g.html") != -1) || (sURL3.indexOf("gnss_highrate_m.html") != -1) || (sURL3.indexOf("gnss_highrate_n.html") != -1)) {
+		  document.getElementById("GNSSL1-1-3").setAttribute("class","selected"); 
+	  }
+  	  if (sURL3.indexOf("broadcast_ephemeris_data.html") != -1) {
+		  document.getElementById("GNSSL1-1-4").setAttribute("class","selected"); 
+	  }
+ 	  if (sURL3.indexOf("RINEX_Version_3.html") != -1) {
+		  document.getElementById("GNSSL1-1-5").setAttribute("class","selected"); 
+	  }
+   	  if ((sURL3.indexOf("real-time_data.html") != -1) || (sURL3.indexOf("Caster_client_config") != -1))  {
+		  document.getElementById("GNSSL1-1-6").setAttribute("class","selected"); 
+	  }
+  	  if (sURL3.indexOf("GNSS_campaign_data.html") != -1) {
+		  document.getElementById("GNSSL1-1-7").setAttribute("class","selected"); 
+	  }
+  	  if (sURL3.indexOf("onboard_data.html") != -1) {
+		  document.getElementById("GNSSL1-1-8").setAttribute("class","selected"); 
+	  }
+  	  if (sURL3.indexOf("GNSS_product_holdings.html") != -1) {
+		  document.getElementById("GNSSL1-2").setAttribute("class","selected"); 
+	  }
+	  
+  	  if ((sURL3.indexOf("orbit_products.html") != -1) || (sURL3.indexOf("gnss_igserp.html") != -1) || (sURL3.indexOf("gnss_igsorb.html") != -1) || (sURL3.indexOf("gnss_igssum.html") != -1)) {
+		  document.getElementById("GNSSL1-2-1").setAttribute("class","selected"); 
+	  }
+  	  if ((sURL3.indexOf("clock_products.html") != -1) || (sURL3.indexOf("gnss_igsclk5.html") != -1) || (sURL3.indexOf("gnss_igsclk30.html") != -1) || (sURL3.indexOf("gnss_igscsum.html") != -1) || (sURL3.indexOf("gnss_igssum.html") != -1)) {
+		  document.getElementById("GNSSL1-2-2").setAttribute("class","selected"); 
+	  }
+  	  if (sURL3.indexOf("station_position_products.html") != -1) {
+		  document.getElementById("GNSSL1-2-3").setAttribute("class","selected"); 
+	  }
+  	  if (sURL3.indexOf("atmospheric_products.html") != -1) {
+		  document.getElementById("GNSSL1-2-4").setAttribute("class","selected"); 
+	  }
+   	  if (sURL3.indexOf("SESES_time_series_products.html") != -1) {
+		  document.getElementById("GNSSL1-2-5").setAttribute("class","selected"); 
+	  }
+   	  if (sURL3.indexOf("gnss_differential_code_bias_product.html") != -1) {
+		  document.getElementById("GNSSL1-2-6").setAttribute("class","selected"); 
+	  }
+   	  if (sURL3.indexOf("Real-time_products.html") != -1) {
+		  document.getElementById("GNSSL1-2-7").setAttribute("class","selected"); 
+	  }
+	  if (sURL3.indexOf("GNSS_reports.html") != -1) {
+		  document.getElementById("GNSSL1-3").setAttribute("class","selected"); 
+	  }
+ 	  if (sURL3.indexOf("GNSS_related_links.html") != -1) {
+		  document.getElementById("GNSSL1-4").setAttribute("class","selected"); 
+	  }
+}
+  else if (sURL3.indexOf("/Data_and_Derived_Products\/SLR") != -1) {
+	  activeDS = "SLRMain";
+	  document.getElementById("SLR").style.display = "block";
+	  document.getElementById("SLRArrow").src ="/images/downArrow.png";
+  	  if (sURL3.indexOf("SLR_data_holdings.html") != -1) {
+		  document.getElementById("SLRL1-1").setAttribute("class","selected"); 
+	  }
+  	  if (sURL3.indexOf("Normal_point_data.html") != -1) {
+		  document.getElementById("SLRL1-1-1").setAttribute("class","selected"); 
+	  }
+  	  if (sURL3.indexOf("Full-rate_data.html") != -1) {
+		  document.getElementById("SLRL1-1-2").setAttribute("class","selected"); 
+	  }
+  	  if (sURL3.indexOf("Lunar_laser_ranging_data.html") != -1) {
+		  document.getElementById("SLRL1-1-3").setAttribute("class","selected"); 
+	  }
+ 	  if (sURL3.indexOf("SLR_product_holdings.html") != -1) {
+		  document.getElementById("SLRL1-2").setAttribute("class","selected"); 
+	  }
+ 	  if (sURL3.indexOf("Orbit_predictions.html") != -1) {
+		  document.getElementById("SLRL1-2-1").setAttribute("class","selected"); 
+	  }
+ 	  if (sURL3.indexOf("SLR_reports.html") != -1) {
+		  document.getElementById("SLRL1-3").setAttribute("class","selected"); 
+	  }
+ 	  if (sURL3.indexOf("SLR_related_links.html") != -1) {
+		  document.getElementById("SLRL1-4").setAttribute("class","selected"); 
+	  }
+}
+  else if (sURL3.indexOf("/Data_and_Derived_Products\/VLBI") != -1) {
+	  activeDS = "VLBIMain";
+	  document.getElementById("VLBI").style.display = "block";
+	  document.getElementById("VLBIArrow").src ="/images/downArrow.png"; 
+	  if (sURL3.indexOf("VLBI_data_holdings.html") != -1) {
+		  document.getElementById("VLBIL1-1").setAttribute("class","selected"); 
+	  }
+	  if (sURL3.indexOf("VLBI_product_holdings.html") != -1) {
+		  document.getElementById("VLBIL1-2").setAttribute("class","selected"); 
+	  }
+	  if (sURL3.indexOf("VLBI_related_links.html") != -1) {
+		  document.getElementById("VLBIL1-3").setAttribute("class","selected"); 
+	  }
+  }
+  else if (sURL3.indexOf("/Data_and_Derived_Products\/DORIS") != -1) {
+	  activeDS = "DORISMain";
+	  document.getElementById("DORIS").style.display = "block";
+	  document.getElementById("DORISArrow").src ="/images/downArrow.png"; 
+	  if (sURL3.indexOf("DORIS_data_holdings.html") != -1) {
+	  	document.getElementById("DORISL1-1").setAttribute("class","selected"); 
+	  }
+  	  if (sURL3.indexOf("DORIS_product_holdings.html") != -1) {
+		  document.getElementById("DORISL1-2").setAttribute("class","selected"); 
+	  }
+  	  if (sURL3.indexOf("DORIS_reports.html") != -1) {
+		  document.getElementById("DORISL1-3").setAttribute("class","selected"); 
+	  }
+  	  if (sURL3.indexOf("DORIS_related_links.html") != -1) {
+		  document.getElementById("DORISL1-4").setAttribute("class","selected"); 
+	  }
+  }
+    else if (sURL3.indexOf("/Data_and_Derived_Products\/Other_products") != -1) {
+	  activeDS = "OtherMain";
+	  document.getElementById("Other").style.display = "block";
+	  document.getElementById("OtherArrow").src ="/images/downArrow.png"; 
+	  if (sURL3.indexOf("IERS_EOPs.html") != -1) {
+	  	document.getElementById("OtherL1-1").setAttribute("class","selected"); 
+	  }
+	}
+  else if (sURL3.indexOf("/Data_and_Derived_Products\/Data_Discovery") != -1) {
+	    activeDS = "DiscoveryMain";
+	  	document.getElementById("DiscoveryMain").setAttribute("class","selected");
+  }
+  else if (sURL3.indexOf("/Data_and_Derived_Products\/Reports") != -1) {
+	    activeDS = "ReportsMain";
+	  	document.getElementById("ReportsMain").setAttribute("class","selected");
+  }
+
+document.getElementById(activeDS).setAttribute("class","active");
+return;
+  }
+
+</script>
+<ul>
+						<li id="GNSSMain" class="active"><a href="https://cddis.nasa.gov/Data_and_Derived_Products/GNSS/GNSS_data_and_product_archive.html">GNSS</a><img src="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/transSpacer.png" width="20" height="4"><img onclick="toggleSubmenu(&#39;GNSS&#39;);" id="GNSSArrow" src="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/downArrow.png" style="width:auto; height:auto;"></li>
+                        <div id="GNSS" style="display: block;">
+                        	<li class="expanded">
+							<div class="expanded_content"><a href="https://cddis.nasa.gov/Data_and_Derived_Products/GNSS/GNSS_data_holdings.html" id="GNSSL1-1">Data Holdings</a></div>
+                            	<ul>
+								<li><a href="https://cddis.nasa.gov/Data_and_Derived_Products/GNSS/daily_30second_data.html" id="GNSSL1-1-1">Daily 30-second data</a></li>
+								<li><a href="https://cddis.nasa.gov/Data_and_Derived_Products/GNSS/hourly_30second_data.html" id="GNSSL1-1-2">Hourly 30-second data</a></li>
+								<li><a href="https://cddis.nasa.gov/Data_and_Derived_Products/GNSS/high-rate_data.html" id="GNSSL1-1-3">High-rate data</a></li>
+                                <li><a href="https://cddis.nasa.gov/Data_and_Derived_Products/GNSS/broadcast_ephemeris_data.html" id="GNSSL1-1-4">Broadcast ephemeris data</a></li>
+								<li><a href="https://cddis.nasa.gov/Data_and_Derived_Products/GNSS/gnss_mgex.html" id="GNSSL1-1-5">MGEX</a></li>
+                                <li><a href="https://cddis.nasa.gov/Data_and_Derived_Products/GNSS/real-time_data.html" id="GNSSL1-1-6">Real-time data</a></li>
+								<li><a href="https://cddis.nasa.gov/Data_and_Derived_Products/GNSS/GNSS_campaign_data.html" id="GNSSL1-1-7">Campaign data</a></li>
+								<li><a href="https://cddis.nasa.gov/Data_and_Derived_Products/GNSS/onboard_data.html" id="GNSSL1-1-8">On-board receiver data</a></li>
+                                </ul>
+								<div class="expanded_content"><a href="https://cddis.nasa.gov/Data_and_Derived_Products/GNSS/GNSS_product_holdings.html" id="GNSSL1-2">Product Holdings</a></div>
+                            	<ul>
+								<li><a href="https://cddis.nasa.gov/Data_and_Derived_Products/GNSS/orbit_products.html" id="GNSSL1-2-1" class="selected">Precise orbits</a></li>
+    								<li><a href="https://cddis.nasa.gov/Data_and_Derived_Products/GNSS/clock_products.html" id="GNSSL1-2-2">Clock products</a></li>
+                            
+								<li><a href="https://cddis.nasa.gov/Data_and_Derived_Products/GNSS/station_position_products.html" id="GNSSL1-2-3">Reference frame</a></li>
+								<li><a href="https://cddis.nasa.gov/Data_and_Derived_Products/GNSS/atmospheric_products.html" id="GNSSL1-2-4">Ionosphere/Troposphere</a></li>
+                                <li><a href="https://cddis.nasa.gov/Data_and_Derived_Products/GNSS/SESES_time_series_products.html" id="GNSSL1-2-5">ESESES time series products</a></li>
+                                <li><a href="https://cddis.nasa.gov/Data_and_Derived_Products/GNSS/gnss_differential_code_bias_product.html" id="GNSSL1-2-6">Differential code bias</a></li>
+                                <li><a href="https://cddis.nasa.gov/Data_and_Derived_Products/GNSS/Real-time_products.html" id="GNSSL1-2-7">Real-time products</a></li>
+                                </ul>
+							<div class="expanded_content"><a href="https://cddis.nasa.gov/Data_and_Derived_Products/GNSS/GNSS_reports.html" id="GNSSL1-3">Reports</a></div>
+							<div class="expanded_content"><a href="https://cddis.nasa.gov/Data_and_Derived_Products/GNSS/GNSS_related_links.html" id="GNSSL1-4">Related Links</a></div>
+</li></div>
+
+						<li id="SLRMain"><a href="https://cddis.nasa.gov/Data_and_Derived_Products/SLR/SLR_data_and_product_archive.html">SLR</a><img src="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/transSpacer.png" width="20" height="4"><img onclick="toggleSubmenu(&#39;SLR&#39;);" id="SLRArrow" src="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/rightArrow.png" style="width:auto; height:auto;"></li>
+                        <div id="SLR" style="display:none;">
+						<li class="expanded">
+							<div class="expanded_content"><a id="SLRL1-1" href="https://cddis.nasa.gov/Data_and_Derived_Products/SLR/SLR_data_holdings.html">Data Holdings</a></div>
+                            <ul>
+                            	<li><a href="https://cddis.nasa.gov/Data_and_Derived_Products/SLR/Normal_point_data.html" id="SLRL1-1-1">Normal point data</a></li>
+								<li><a href="https://cddis.nasa.gov/Data_and_Derived_Products/SLR/Full-rate_data.html" id="SLRL1-1-2">Full-rate data</a></li>
+								<li><a href="https://cddis.nasa.gov/Data_and_Derived_Products/SLR/Lunar_laser_ranging_data.html" id="SLRL1-1-3">Lunar laser ranging data</a></li>
+                            </ul>
+						<div class="expanded_content"><a href="https://cddis.nasa.gov/Data_and_Derived_Products/SLR/SLR_product_holdings.html" id="SLRL1-2">Product Holdings</a></div>
+                        <ul>
+                        	<li><a href="https://cddis.nasa.gov/Data_and_Derived_Products/SLR/Orbit_predictions.html" id="SLRL1-2-1">Orbit predictions</a></li>
+                        </ul>
+							<div class="expanded_content"><a href="https://cddis.nasa.gov/Data_and_Derived_Products/SLR/SLR_reports.html" id="SLRL1-3">Reports</a></div>
+							<div class="expanded_content"><a href="https://cddis.nasa.gov/Data_and_Derived_Products/SLR/SLR_related_links.html" id="SLRL1-4">Related Links</a></div>
+						</li>
+                        </div>
+						<li id="VLBIMain"><a href="https://cddis.nasa.gov/Data_and_Derived_Products/VLBI/VLBI_data_and_product_archive.html">VLBI</a><img src="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/transSpacer.png" width="20" height="4"><img onclick="toggleSubmenu(&#39;VLBI&#39;);" id="VLBIArrow" src="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/rightArrow.png" style="width:auto; height:auto;"></li>
+                        <div id="VLBI" style="display:none;">
+						<li class="expanded">
+                        
+							<div class="expanded_content"><a href="https://cddis.nasa.gov/Data_and_Derived_Products/VLBI/VLBI_data_holdings.html" id="VLBIL1-1">Data holdings</a></div>
+                            <div class="expanded_content"><a href="https://cddis.nasa.gov/Data_and_Derived_Products/VLBI/VLBI_product_holdings.html" id="VLBIL1-2">Product holdings</a></div>
+							<div class="expanded_content"><a href="https://cddis.nasa.gov/Data_and_Derived_Products/VLBI/VLBI_related_links.html" id="VLBIL1-3">Related links</a></div>
+						</li>
+  </div>
+						<li id="DORISMain"><a href="https://cddis.nasa.gov/Data_and_Derived_Products/DORIS/DORIS_data_and_product_archive.html">DORIS</a><img src="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/transSpacer.png" width="20" height="4"><img onclick="toggleSubmenu(&#39;DORIS&#39;);" id="DORISArrow" src="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/rightArrow.png" style="width:auto; height:auto;"></li>
+                        <div id="DORIS" style="display:none;">
+						<li class="expanded">
+                        	<div class="expanded_content"><a href="https://cddis.nasa.gov/Data_and_Derived_Products/DORIS/DORIS_data_holdings.html" id="DORISL1-1">Data Holdings</a></div>
+							<div class="expanded_content"><a href="https://cddis.nasa.gov/Data_and_Derived_Products/DORIS/DORIS_product_holdings.html" id="DORISL1-2">Product holdings</a></div>
+							<div class="expanded_content"><a id="DORISL1-3" href="https://cddis.nasa.gov/Data_and_Derived_Products/DORIS/DORIS_reports.html">Reports</a></div>
+							<div class="expanded_content"><a id="DORISL1-4" href="https://cddis.nasa.gov/Data_and_Derived_Products/DORIS/DORIS_related_links.html">Related links</a></div>
+						</li>
+      </div>
+						<li id="OtherMain"><a href="https://cddis.nasa.gov/Data_and_Derived_Products/Other_products/Other_products.html">Other Products</a><img src="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/transSpacer.png" width="20" height="4"><img onclick="toggleSubmenu(&#39;Other&#39;);" id="OtherArrow" src="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/rightArrow.png" style="width:auto; height:auto;"></li>
+                        <div id="Other" style="display:none;">
+						<li class="expanded">
+                        	<div class="expanded_content"><a href="https://cddis.nasa.gov/Data_and_Derived_Products/Other_products/IERS_EOPs.html" id="OtherL1-1">IERS EOPs</a></div>
+						</li>
+      </div>
+      <li id="DiscoveryMain"><a href="https://cddis.nasa.gov/Data_and_Derived_Products/Data_Discovery.html">Data discovery tools</a></li>
+      <li id="ReportsMain"><a href="https://cddis.nasa.gov/Data_and_Derived_Products/Reports.html">Reports</a></li>
+					</ul>
+<script language="JavaScript">
+	<!--
+	setActiveLI();
+	-->
+</script>
+
+
+
+
+ 
+				</div>
+				
+				<div class="page_content">
+                <div class="page_subtitle">GNSS Orbit Products</div>
+<p>IGS analysis centers provide satellite orbit solutions to the CDDIS using pre-determined schedules, e.g., sub-daily, daily, or weekly, depending upon the data product. The IGS analysis center coordinator retrieves these solutions and produces a combined product, which is then in turn archived at the CDDIS. These combination solutions are considered the official IGS products.</p>
+
+<p>IGS orbit combination solutions are available in three forms: ultra-rapid, rapid, and final. The ultra-rapid product, useful for real-time and near real-time applications, at regular intervals four times per day; the ultra-rapid solution includes both observed and predicted satellite orbits. The rapid orbit combination is a daily solution available approximately 17 hours after the end of the previous UTC day. The final, and most consistent and highest quality IGS solutions, consists of daily orbit files, generated on a weekly basis approximately 13 days after the end of the solution week. All orbit solution files utilize the <a href="ftp://igs.org/pub/data/format/sp3c.txt" target="_blank">Extended Standard Product- 3 (SP3c) format</a>.</p>
+<p>All operational IGS GNSS products (i.e., orbits, station positions, EOP, clock solutions) are available in subdirectories by GPS week. Solution summary files are provided by the analysis centers in which they describe their analysis methods and strategies and list processing statistics. Descriptions of AC analysis procedures and models used are available from the<a href="http://www.igs.org/" target="_blank"> IGS website</a>. </p>
+
+<p>In 2009 and 2013, the IGS initiated “reprocessing campaigns” (repro1 and repro2 respectively). The IGS analysis centers re-processed the GNSS data from the global network of IGS stations (from 1994 to 2007 for repro1, from 1994 through 2012/2013 for repro2) to produce a fully consistent set of products utilizing the most recent models and updated processing strategies. These reprocessed solutions are available within the weekly subdirectory structure as outlined below, in /repro1 and /repro2 subdirectories.</p>
+
+<p>The starting directory for these files is:</p>
+
+<p style="padding-left:15px;"><a href="ftp://cddis.nasa.gov/gnss/products/">ftp://cddis.nasa.gov/gnss/products/</a>&nbsp;&nbsp; (GPS and GPS+GLONASS solutions)</p>
+<p style="padding-left:15px;"><a href="ftp://cddis.nasa.gov/glonass/products/">ftp://cddis.nasa.gov/glonass/products/</a>&nbsp;&nbsp; (GLONASS-only solutions)</p>
+
+<p>Append the following directory  and file names to the starting directory: </p>
+<p style="padding-left:15px;"><strong>WWWW</strong>/<strong>AAAWWWWD</strong>.<strong>TYP.Z</strong></p>
+<p>as described in the table below.  </p>
+
+<div id="GNSSOrbitAAA" class="codeListPopup" style="top:625px; left:58%; width:330px;">
+<p style="text-align:right; margin-top:0px; padding-right:10px;"><a onclick="toggleCodeList(&#39;GNSSOrbitAAA&#39;);">Close window</a></p>
+                    		<table class="GNSSCodeTable" style="width:330px;">
+                            			<tbody><tr><th style="width:30px;">cod Code</th><th>cog<br>Code</th></tr>
+                            			<tr><td style="width:50px;">emr</td><td>NRCan</td></tr>
+                             			<tr><td>emx</td><td>NRCan (GLONASS only)</td></tr>
+                            			<tr><td>esa</td><td>ESA</td></tr>
+                            			<tr><td>gfz</td><td>GFZ</td></tr>
+                            			<tr><td>grg</td><td>GRGS</td></tr>
+                            			<tr><td>gsi</td><td>GSI</td></tr>
+                            			<tr><td>iac</td><td>MCC (GLONASS only)</td></tr>
+                            			<tr><td>igl</td><td>IGS final solution combination (GLONASS only)</td></tr>
+                            			<tr><td>igr</td><td>IGS rapid solution combination</td></tr>
+                            			<tr><td>igs</td><td>IGS final solution combination</td></tr>
+                            			<tr><td>igu</td><td>IGS ultra-rapid solution combination</td></tr>
+                            			<tr><td>igv</td><td>IGS ultra-rapid solution combination (GLONASS only)</td></tr>
+                             			<tr><td>jpl</td><td>JPL</td></tr>
+                            			<tr><td>mcc</td><td>MCC (GLONASS only from SLR data)</td></tr>
+                            			<tr><td>mit</td><td>MIT</td></tr>
+                            			<tr><td>mig</td><td>MIT</td></tr>
+                            			<tr><td>ncl</td><td>University of Newcastle</td></tr>
+                            			<tr><td>ngs</td><td>NOAA/NGS</td></tr>
+                            			<tr><td>sio</td><td>SIO</td></tr>
+                          </tbody></table>
+</div>
+ <div id="GNSSOrbitTYP" class="codeListPopup" style="top:900px; left:58%; width:390px;">
+<p style="text-align:right; margin-top:0px; padding-right:10px;"><a onclick="toggleCodeList(&#39;GNSSOrbitTYP&#39;);">Close window</a></p>
+                    		<table class="GNSSCodeTable">
+                            			<tbody><tr><th style="width:30px;">Code</th><th>Meaning</th></tr>
+                            			<tr><td>eph</td><td>Satellite orbit solution</td></tr>
+                            			<tr><td>erp</td><td>Earth orientation parameter solution</td></tr>
+                            			<tr><td>sp3</td><td>Satellite orbit solution</td></tr>
+                            			<tr><td>sum</td><td>Orbit solution analysis summary</td></tr>
+                          </tbody></table>
+</div>
+              <table width="348" align="left" style="width:440px; padding-bottom:40px; padding-top:20px;">
+               <tbody><tr><th width="91" style="width:30px;">Code</th>
+               		<th width="445">Meaning</th>
+               </tr>
+               <tr>
+                 <td style="width:30px;"><strong>WWWW</strong></td>
+                 <td style="width:210px;">GPS week</td>
+               </tr>
+               <tr><td style="width:30px;"><strong>AAA</strong></td><td style="width:210px;"><a onclick="toggleCodeList(&#39;GNSSOrbitAAA&#39;);">analysis center name/type of solution</a></td>
+               </tr>
+               <tr><td style="width:30px;"><strong>D</strong></td><td style="width:210px;">day of week (0-6, 7 indicates weekly)</td>
+               </tr>
+               <tr><td style="width:30px;"><strong>HH</strong></td><td style="width:210px;">2-digit hour (00, 06, 12, 18)</td></tr>
+               <tr><td style="width:30px;"><strong>TYP</strong></td><td style="width:210px;"><a onclick="toggleCodeList(&#39;GNSSOrbitTYP&#39;);">type of solution</a></td>
+               </tr>
+               <tr>
+                 <td style="width:30px;"><strong>.Z</strong></td>
+                 <td style="width:210px;">UNIX compressed file</td>
+               </tr>
+              </tbody></table>
+        <div style="clear:both;"></div>
+        <p>Though many products are available, the products listed below have permanent DOIs:</p>
+              
+        <table style="background:none; border:none;" align="left">
+<tbody><tr>
+              <td style="background:none; border:none; vertical-align:top; width:209px;"><strong>WWWW</strong>/igs<strong>WWWWD</strong>.erp<strong>.Z</strong></td>
+              <td style="background:none; border:none; vertical-align:top;">Earth orientation parameter solution<br>
+        <a href="https://cddis.nasa.gov/Data_and_Derived_Products/GNSS/gnss_igserp.html">doi: 10.5067/GNSS/gnss_igserp_001</a></td>
+          </tr>
+<tr>
+              <td style="background:none; border:none; vertical-align:top; width:209px;"><strong>WWWW</strong>/igs<strong>WWWWD</strong>.sp3<strong>.Z</strong></td>
+              <td style="background:none; border:none; vertical-align:top;">Satellite orbit solution<br>
+        <a href="https://cddis.nasa.gov/Data_and_Derived_Products/GNSS/gnss_igsorb.html">doi: 10.5067/GNSS/gnss_igsorb_001</a></td>
+          </tr>          
+          <tr>
+            	<td style="background:none; border:none; vertical-align:top; width:209px;"><strong>WWWW</strong>/igs<strong>WWWWD</strong>.sum<strong>.Z</strong></td>
+                <td style="background:none; border:none; vertical-align:top;">Orbit solution analysis summary<br>
+            <a href="https://cddis.nasa.gov/Data_and_Derived_Products/GNSS/gnss_igssum.html">doi: 10.5067/GNSS/gnss_igssum_001</a></td>
+          </tr>
+<tr>
+            	<td style="background:none; border:none; vertical-align:top; width:209px;"><strong>WWWW</strong>/igr<strong>WWWWD</strong>.erp<strong>.Z</strong></td>
+            	<td style="background:none; border:none; vertical-align:top;">GNSS Rapid Combined Earth Rotation Parameter (ERP) Product<br>
+        <a href="https://cddis.nasa.gov/Data_and_Derived_Products/GNSS/gnss_igsrerp.html">doi: 10.5067/GNSS/gnss_igsrerp_001</a></td>
+          </tr>            
+            <tr>
+              <td style="background:none; border:none; vertical-align:top; width:209px;"><strong>WWWW</strong>/igr<strong>WWWWD</strong>.sp3<strong>.Z</strong></td>
+              <td style="background:none; border:none; vertical-align:top;">GNSS Rapid Combined Orbit Solution  Product<br>
+              <a href="https://cddis.nasa.gov/Data_and_Derived_Products/GNSS/gnss_igsrorb.html">doi: 10.5067/GNSS/gnss_igsrorb_001</a></td>
+            </tr>
+            <tr>
+            	<td style="background:none; border:none; vertical-align:top; width:209px;"><strong>WWWW</strong>/igr<strong>WWWWD</strong>.sum<strong>.Z</strong></td>
+            	<td style="background:none; border:none; vertical-align:top;">GNSS Rapid Combined Orbit Solution Summary Product<br>
+       	    <a href="https://cddis.nasa.gov/Data_and_Derived_Products/GNSS/gnss_igsrsum.html">doi: 10.5067/GNSS/gnss_igsrsum_001</a></td>
+          </tr>
+            
+          <tr>
+            	<td style="background:none; border:none; vertical-align:top; width:209px;"><strong>WWWW</strong>/igu<strong>WWWWD</strong>_<strong>HH</strong>_cmp.sum<strong>.Z</strong></td>
+                <td style="background:none; border:none; vertical-align:top;">GNSS Ultra-Rapid Orbit Solution Comparison Summary  Product<br>
+                <a href="https://cddis.nasa.gov/Data_and_Derived_Products/GNSS/gnss_igsucsum.html">doi: 10.5067/GNSS/gnss_igsucsum_001</a></td>
+            </tr>
+            <tr>
+            	<td style="background:none; border:none; width:209px;"><strong>WWWW</strong>/igu<strong>WWWWD</strong>_<strong>HH</strong>.erp<strong>.Z</strong></td>
+                <td style="background:none; border:none; vertical-align:top;">GNSS Ultra-Rapid Combined Earth Rotation Parameter (ERP) Product<br>
+                <a href="https://cddis.nasa.gov/Data_and_Derived_Products/GNSS/gnss_igsuerp.html">doi: 10.5067/GNSS/gnss_igsuerp_001</a></td>
+            </tr>
+          <tr>
+            	<td style="background:none; border:none; vertical-align:top; width:209px;"><strong>WWWW</strong>/igu<strong>WWWWD</strong>_<strong>HH</strong>.sp3<strong>.Z</strong></td>
+                <td style="background:none; border:none; vertical-align:top;">GNSS Ultra-Rapid Combined Orbit Solution Product<br>
+            <a href="https://cddis.nasa.gov/Data_and_Derived_Products/GNSS/gnss_igsuorb.html">doi: 10.5067/GNSS/gnss_igsuorb_001</a></td>
+          </tr>
+            <tr>
+            	<td style="background:none; border:none; vertical-align:top; width:209px;"><strong>WWWW</strong>/igu<strong>WWWWD</strong>_<strong>HH</strong>.sum<strong>.Z</strong></td>
+                <td style="background:none; border:none; vertical-align:top;">GNSS Ultra-Rapid Combined Orbit Solution Summary Product<br>
+                <a href="https://cddis.nasa.gov/Data_and_Derived_Products/GNSS/gnss_igsusum.html">doi: 10.5067/GNSS/gnss_igsusum_001</a></td>
+            </tr>
+        </tbody></table>
+              <div style="height:30px;"></div>
+			</div><!-- end div page_content-->	
+			<!--- don't remove this br --->
+			<br clear="all">
+          </div>
+		</div>
+		
+		<div id="footer">
+			<div class="column">
+				<a href="https://cddis.nasa.gov/index.html"><img src="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/spacer.gif" border="0" alt="CDDIS: NASA&#39;s Archive of Space Geodesy Data" vspace="0" hspace="0" width="125" height="64"></a><a href="http://icsu-wds.org/" target="_blank"><img src="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/WDS_logo100x59.jpg" style="height:59px; width:100px; padding-left:15px;" alt="World Data System logo"></a>
+  </div>
+			<div class="column right">
+				Responsible NASA Official: <a href="mailto:Carey.E.Noll@nasa.gov">Carey E. Noll</a><br>
+                Web Curator: <a href="mailto:ltyahla@sgt-inc.com">Lori J. Tyahla</a><br>
+		      
+				Last modified date: Apr  5, 2019<br>				
+			</div>	
+			<div class="column middle">
+				<a href="https://cddis.nasa.gov/About/FAQ.html">FAQ</a><br>
+			  <a onclick="feedback.showForm();">Contact Us</a><br>
+				<a href="http://www.nasa.gov/about/highlights/HP_Privacy.html" target="_blank">NASA Privacy Policy and Important Notices</a><br>
+				<a href="http://www.usa.gov/" target="_blank">USA.gov</a><br>
+			</div>					
+		</div>
+        <img src="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/spacer.gif" alt=" " width="1" height="5">
+	<!-- BEGIN: NetTracker Page Tag -->
+    <!-- Copyright 2004 Sane Solutions, LLC.  All rights reserved. -->
+    <script type="text/javascript" language="JavaScript" src="./CDDIS _ _ Data and Derived Products _ GNSS _ orbit products_files/ntpagetag(1).js"></script>
+    <noscript>
+        <img src="https://ws1.ems.eosdis.nasa.gov/images/ntpagetag.gif?js=0" height="1" width="1" border="0" hspace="0" vspace="0" alt="" />
+    </noscript>
+    <!-- END: NetTracker Page Tag -->
+
+        
+	
+ 
+</div></body></html>
