@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-23T19:01:35.892Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.1.229 Yowser/2.5 Safari/537.36" etag="SzvEWdNjhUlwFtObS6t0" version="12.4.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-23T19:05:25.267Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.1.229 Yowser/2.5 Safari/537.36" etag="xPe72pjq_ojKwhEqPIMx" version="12.4.3" type="github" pages="1">
   <diagram id="jQreH99h2N3myDWHS3vS" name="Page-1">
     <mxGraphModel dx="1161" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -264,6 +264,9 @@
         </mxCell>
         <mxCell id="-jVmJ1-V1c3GaRNwtS8Z-156" value="&lt;br style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;- create new VPS&lt;br&gt;- deploy agent&lt;br&gt;- start agent&lt;br&gt;- story agent ID&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;comic=0;labelBackgroundColor=none;fontSize=15;fontColor=#3045FF;" parent="-jVmJ1-V1c3GaRNwtS8Z-154" vertex="1">
           <mxGeometry x="10" y="50" width="120" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="1VGXTUs-d3SxIM9BYk_C-2" value="&lt;font color=&quot;#006600&quot;&gt;Module&amp;nbsp;&lt;br&gt;&lt;u&gt;Processing Results&lt;br&gt;&lt;/u&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="shape=card;whiteSpace=wrap;html=1;rounded=1;shadow=1;glass=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fillColor=#ffffff;gradientColor=none;fontSize=15;fontColor=#3045FF;" vertex="1" parent="1">
+          <mxGeometry x="140" y="380" width="140" height="130" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
