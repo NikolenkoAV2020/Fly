@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-23T19:20:01.878Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.1.229 Yowser/2.5 Safari/537.36" etag="xwt0Z_FZB66S6ieCUN45" version="12.4.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-23T19:28:43.325Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.1.229 Yowser/2.5 Safari/537.36" etag="zLROWjDUtkF1nLhVbCmX" version="12.4.3" type="github" pages="1">
   <diagram id="jQreH99h2N3myDWHS3vS" name="Page-1">
     <mxGraphModel dx="1603" dy="964" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -223,18 +223,6 @@
             <mxPoint x="-120" y="-530" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-jVmJ1-V1c3GaRNwtS8Z-132" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="130" y="200" width="130" height="140" as="geometry"/>
-        </mxCell>
-        <mxCell id="-jVmJ1-V1c3GaRNwtS8Z-129" value="&lt;font color=&quot;#009900&quot;&gt;Elastic&lt;br&gt;Results storage&lt;/font&gt;" style="shape=datastore;whiteSpace=wrap;html=1;rounded=1;shadow=1;glass=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fillColor=#ffffff;gradientColor=none;fontSize=15;fontColor=#3045FF;" parent="-jVmJ1-V1c3GaRNwtS8Z-132" vertex="1">
-          <mxGeometry width="130" height="90" as="geometry"/>
-        </mxCell>
-        <mxCell id="-jVmJ1-V1c3GaRNwtS8Z-130" value="" style="endArrow=classic;html=1;shadow=0;strokeColor=#009900;strokeWidth=2;fontSize=15;fontColor=#3045FF;" parent="-jVmJ1-V1c3GaRNwtS8Z-132" target="-jVmJ1-V1c3GaRNwtS8Z-129" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="65" y="140" as="sourcePoint"/>
-            <mxPoint x="115" y="97" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="-jVmJ1-V1c3GaRNwtS8Z-157" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="120" y="336" width="670" height="200" as="geometry"/>
         </mxCell>
@@ -270,6 +258,30 @@
         </mxCell>
         <mxCell id="1VGXTUs-d3SxIM9BYk_C-2" value="&lt;font color=&quot;#006600&quot;&gt;Module&amp;nbsp;&lt;br&gt;&lt;u&gt;Processing Results&lt;br&gt;&lt;/u&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="shape=card;whiteSpace=wrap;html=1;rounded=1;shadow=1;glass=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fillColor=#ffffff;gradientColor=none;fontSize=15;fontColor=#3045FF;" parent="1" vertex="1">
           <mxGeometry x="140" y="380" width="140" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="7dTB1Xy_m9MMLDKNjJGb-5" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="130" y="15" width="355" height="325" as="geometry"/>
+        </mxCell>
+        <mxCell id="-jVmJ1-V1c3GaRNwtS8Z-132" value="" style="group" parent="7dTB1Xy_m9MMLDKNjJGb-5" vertex="1" connectable="0">
+          <mxGeometry y="185" width="130" height="140" as="geometry"/>
+        </mxCell>
+        <mxCell id="-jVmJ1-V1c3GaRNwtS8Z-129" value="&lt;font color=&quot;#009900&quot;&gt;Elastic&lt;br&gt;Results storage&lt;/font&gt;" style="shape=datastore;whiteSpace=wrap;html=1;rounded=1;shadow=1;glass=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fillColor=#ffffff;gradientColor=none;fontSize=15;fontColor=#3045FF;" parent="-jVmJ1-V1c3GaRNwtS8Z-132" vertex="1">
+          <mxGeometry width="130" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="-jVmJ1-V1c3GaRNwtS8Z-130" value="" style="endArrow=classic;html=1;shadow=0;strokeColor=#009900;strokeWidth=2;fontSize=15;fontColor=#3045FF;" parent="-jVmJ1-V1c3GaRNwtS8Z-132" target="-jVmJ1-V1c3GaRNwtS8Z-129" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="65" y="140" as="sourcePoint"/>
+            <mxPoint x="115" y="97" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7dTB1Xy_m9MMLDKNjJGb-4" value="" style="group" vertex="1" connectable="0" parent="7dTB1Xy_m9MMLDKNjJGb-5">
+          <mxGeometry x="60" width="295" height="185" as="geometry"/>
+        </mxCell>
+        <mxCell id="7dTB1Xy_m9MMLDKNjJGb-2" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_callout" vertex="1" parent="7dTB1Xy_m9MMLDKNjJGb-4">
+          <mxGeometry width="290" height="185" as="geometry"/>
+        </mxCell>
+        <mxCell id="7dTB1Xy_m9MMLDKNjJGb-3" value="&lt;div style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;Cache&lt;/font&gt;&lt;/b&gt;&lt;span&gt;&amp;nbsp;&lt;b&gt;&lt;font style=&quot;font-size: 15px&quot;&gt; Tre Internet:&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;ip, port, state, service banner, record age, . . ." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7dTB1Xy_m9MMLDKNjJGb-4">
+          <mxGeometry x="40" y="35" width="255" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
